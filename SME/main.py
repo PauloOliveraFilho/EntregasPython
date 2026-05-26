@@ -1,6 +1,6 @@
 import tkinter as tk
 
-from widgets.header import Header
+from Widgets.header import Header
 
 from Janelas.Dashboard import Dashboard
 from Janelas.Entregas import Entregas
@@ -10,7 +10,8 @@ root = tk.Tk()
 
 root.title("Sistema de Monitoramento de Entregas")
 
-root.geometry("900x400")
+root.geometry("1100x650")
+root.minsize(900, 500)
 
 header = Header(root)
 
@@ -34,8 +35,13 @@ def mostrarTela(tela):
 # BOTÕES DO HEADER
 
 header.addBotao(
+    "Entregas em Curso",
+    lambda: mostrarTela(lambda master: Entregas(master, tipo="em_curso"))
+)
+
+header.addBotao(
     "Entregas Finalizadas",
-    lambda: mostrarTela(Entregas)
+    lambda: mostrarTela(lambda master: Entregas(master, tipo="finalizadas"))
 )
 
 header.addBotao(
@@ -43,7 +49,6 @@ header.addBotao(
     lambda: mostrarTela(Dashboard)
 )
 
-# TELA INICIAL
-mostrarTela(Entregas)
+mostrarTela(lambda master: Entregas(master, tipo="em_curso"))
 
 root.mainloop()
