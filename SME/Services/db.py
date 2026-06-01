@@ -75,3 +75,146 @@ def buscar_estatisticas():
         "entregues": entregues,
         "problemas": problemas
     }
+
+def excluir_entrega(id_entrega):
+    resultado = colecao.delete_one({
+        "_id": ObjectId(id_entrega)
+    })
+
+    return resultado.deleted_count > 0
+
+def consulta_entregas_em_curso_resumida():
+    entregas = colecao.find(
+        {
+            "$and": [
+                {"status": "em_curso"},
+                {"valor_total": {"$gte": 20}}
+            ]
+        },
+        {
+            "comprador.nome": 1,
+            "comprador.telefone": 1,
+            "endereco.bairro": 1,
+            "valor_total": 1,
+            "previsao_entrega": 1,
+            "codigo_seguranca": 1,
+            "status": 1
+        }
+    ).sort("valor_total", -1)
+
+    return list(entregas)
+
+
+def consulta_total_por_status():
+    resultado = colecao.aggregate([
+        {
+            "$group": {
+                "_id": "$status",
+                "quantidade": {"$sum": 1}
+            }
+        },
+        {
+            "$sort": {
+                "quantidade": -1
+            }
+        }
+    ])
+
+    return list(resultado)
+
+
+def consulta_faturamento_por_entregador():
+    resultado = colecao.aggregate([
+        {
+            "$match": {
+                "status": {"$in": ["entregue", "problema"]}
+            }
+        },
+        {
+            "$group": {
+                "_id": "$entregador.nome",
+                "total_entregas": {"$sum": 1},
+                "faturamento_total": {"$sum": "$valor_total"},
+                "media_por_entrega": {"$avg": "$valor_total"}
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "entregador": "$_id",
+                "total_entregas": 1,
+                "faturamento_total": 1,
+                "media_por_entrega": 1
+            }
+        },
+        {
+            "$sort": {
+                "faturamento_total": -1
+            }
+        }
+    ])
+
+    return list(resultado)
+
+
+def consulta_problemas_por_bairro():
+    resultado = colecao.aggregate([
+        {
+            "$match": {
+                "problema_entrega": True
+            }
+        },
+        {
+            "$group": {
+                "_id": "$endereco.bairro",
+                "total_problemas": {"$sum": 1}
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "bairro": "$_id",
+                "total_problemas": 1
+            }
+        },
+        {
+            "$sort": {
+                "total_problemas": -1
+            }
+        }
+    ])
+
+    return list(resultado)
+
+
+def consulta_produtos_mais_vendidos():
+    resultado = colecao.aggregate([
+        {
+            "$unwind": "$itens"
+        },
+        {
+            "$group": {
+                "_id": "$itens.nome",
+                "quantidade_vendida": {"$sum": "$itens.quantidade"},
+                "faturamento_produto": {"$sum": "$itens.valor_total_item"}
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "produto": "$_id",
+                "quantidade_vendida": 1,
+                "faturamento_produto": 1
+            }
+        },
+        {
+            "$sort": {
+                "quantidade_vendida": -1
+            }
+        },
+        {
+            "$limit": 10
+        }
+    ])
+
+    return list(resultado)

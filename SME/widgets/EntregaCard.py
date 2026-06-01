@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 
-from Services.db import finalizar_entrega, marcar_problema
+from Services.db import finalizar_entrega, marcar_problema, excluir_entrega
 
 
 class Card(tk.Frame):
@@ -92,8 +92,20 @@ class Card(tk.Frame):
 
         if self.tipo == "em_curso":
             self.adicionar_linha(secao_datas, "Previsão", self.entrega.get("previsao_entrega", ""))
+
+            codigo = self.entrega.get("codigo_seguranca", "Desativado")
+
+            if codigo and codigo != "Desativado":
+                self.adicionar_linha(secao_datas, "Código", codigo)
+            else:
+                self.adicionar_linha(secao_datas, "Código", "Não solicitado")
         else:
             self.adicionar_linha(secao_datas, "Entrega", self.formatar_data_hora("data_entrega", "hora_entrega"))
+
+            codigo = self.entrega.get("codigo_seguranca", "Desativado")
+
+            if codigo and codigo != "Desativado":
+                self.adicionar_linha(secao_datas, "Código", codigo)
 
         observacao = self.entrega.get("observacao", "")
         problema_entrega = self.entrega.get("problema_entrega", False)
@@ -115,10 +127,10 @@ class Card(tk.Frame):
         )
 
         # Rodapé com botões
-        if self.tipo == "em_curso":
-            rodape = tk.Frame(self, bg="#ffffff", padx=12, pady=10)
-            rodape.pack(fill="x")
+        rodape = tk.Frame(self, bg="#ffffff", padx=12, pady=10)
+        rodape.pack(fill="x")
 
+        if self.tipo == "em_curso":
             btn_entregue = tk.Button(
                 rodape,
                 text="Marcar como entregue",
@@ -144,6 +156,19 @@ class Card(tk.Frame):
                 cursor="hand2"
             )
             btn_problema.pack(side="left")
+
+        btn_excluir = tk.Button(
+            rodape,
+            text="Excluir",
+            command=self.excluir,
+            bg="#555555",
+            fg="white",
+            padx=10,
+            pady=5,
+            relief=tk.FLAT,
+            cursor="hand2"
+        )
+        btn_excluir.pack(side="right")
 
     def criar_secao(self, master, titulo):
         frame = tk.Frame(master, bg="#ffffff", pady=4)
@@ -297,4 +322,22 @@ class Card(tk.Frame):
             return
 
         messagebox.showinfo("Sucesso", "Entrega marcada com problema.")
+        self.destroy()
+
+    def excluir(self):
+        confirmar = messagebox.askyesno(
+            "Confirmar exclusão",
+            "Tem certeza que deseja excluir esta entrega?"
+        )
+
+        if not confirmar:
+            return
+
+        resultado = excluir_entrega(str(self.entrega["_id"]))
+
+        if resultado is False:
+            messagebox.showerror("Erro", "Não foi possível excluir a entrega.")
+            return
+
+        messagebox.showinfo("Sucesso", "Entrega excluída com sucesso.")
         self.destroy()
