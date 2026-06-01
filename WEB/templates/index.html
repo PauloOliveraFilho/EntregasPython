@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Extra Entregas | Sistema de Monitoramento</title>
   <meta name="description" content="Interface web do Sistema de Monitoramento de Entregas do Mercado Extra." />
-  <link rel="stylesheet" href="../CSS/style.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
 </head>
 <body>
   <div class="page-shell">
@@ -56,7 +56,7 @@
           </div>
         </div>
         <div class="hero-visual card-float">
-          <img src="../assets/delivery-hero.svg" alt="Ilustração de entregador com sacolas de mercado" />
+          <img src="{{ url_for('static', filename='assets/delivery-hero.svg') }}" alt="Ilustração de entregador com sacolas de mercado" />
           <div class="tracking-widget">
             <div>
               <small>Entrega #EX-1048</small>
@@ -93,26 +93,48 @@
               <label>Cliente
                 <input required name="cliente" placeholder="Ex.: Ana Júlia Sanches" />
               </label>
+
+              <label>CPF
+                <input required name="cpf" placeholder="123.456.789-10" />
+              </label>
+
               <label>Telefone
                 <input required name="telefone" placeholder="(15) 99999-0000" />
               </label>
-              <label class="wide">Endereço de entrega
-                <input required name="endereco" placeholder="Rua, número, bairro e ponto de referência" />
+
+              <label>Rua / Logradouro
+                <input required name="logradouro" placeholder="Ex.: Rua Santos" />
+              </label>
+
+              <label>Número
+                <input required name="numero" placeholder="Ex.: 111" />
+              </label>
+
+              <label>Bairro
+                <input required name="bairro" placeholder="Ex.: Centro" />
+              </label>
+
+              <label>Cidade
+                <input required name="cidade" value="Itapetininga" />
+              </label>
+
+              <label>Complemento
+                <input name="complemento" placeholder="Ex.: Fundos, apartamento, bloco..." />
               </label>
             </div>
 
             <h3 class="mini-title">Produtos do mercado</h3>
             <div class="product-grid" id="catalogoProdutos">
-              <article class="product-card" data-nome="Arroz Extra 5kg" data-preco="26.90"><img src="../assets/produto-arroz.svg" alt="Arroz"><div><strong>Arroz Extra 5kg</strong><small>R$ 26,90</small></div><button type="button">Adicionar</button></article>
-              <article class="product-card" data-nome="Feijão Carioca 1kg" data-preco="8.49"><img src="../assets/produto-feijao.svg" alt="Feijão"><div><strong>Feijão Carioca 1kg</strong><small>R$ 8,49</small></div><button type="button">Adicionar</button></article>
-              <article class="product-card" data-nome="Leite Integral 1L" data-preco="5.29"><img src="../assets/produto-leite.svg" alt="Leite"><div><strong>Leite Integral 1L</strong><small>R$ 5,29</small></div><button type="button">Adicionar</button></article>
-              <article class="product-card" data-nome="Café Tradicional 500g" data-preco="18.90"><img src="../assets/produto-cafe.svg" alt="Café"><div><strong>Café Tradicional 500g</strong><small>R$ 18,90</small></div><button type="button">Adicionar</button></article>
-              <article class="product-card" data-nome="Açúcar Refinado 1kg" data-preco="4.89"><img src="../assets/produto-acucar.svg" alt="Açúcar"><div><strong>Açúcar Refinado 1kg</strong><small>R$ 4,89</small></div><button type="button">Adicionar</button></article>
-              <article class="product-card" data-nome="Óleo de Soja 900ml" data-preco="7.99"><img src="../assets/produto-oleo.svg" alt="Óleo"><div><strong>Óleo de Soja 900ml</strong><small>R$ 7,99</small></div><button type="button">Adicionar</button></article>
+              <article class="product-card" data-nome="Arroz Extra 5kg" data-preco="26.90"><img src="{{ url_for('static', filename='assets/produto-arroz.svg') }}" alt="Arroz"><div><strong>Arroz Extra 5kg</strong><small>R$ 26,90</small></div><button type="button">Adicionar</button></article>
+              <article class="product-card" data-nome="Feijão Carioca 1kg" data-preco="8.49"><img src="{{ url_for('static', filename='assets/produto-feijao.svg') }}" alt="Feijão"><div><strong>Feijão Carioca 1kg</strong><small>R$ 8,49</small></div><button type="button">Adicionar</button></article>
+              <article class="product-card" data-nome="Leite Integral 1L" data-preco="5.29"><img src="{{ url_for('static', filename='assets/produto-leite.svg') }}" alt="Leite"><div><strong>Leite Integral 1L</strong><small>R$ 5,29</small></div><button type="button">Adicionar</button></article>
+              <article class="product-card" data-nome="Café Tradicional 500g" data-preco="18.90"><img src="{{ url_for('static', filename='assets/produto-cafe.svg') }}" alt="Café"><div><strong>Café Tradicional 500g</strong><small>R$ 18,90</small></div><button type="button">Adicionar</button></article>
+              <article class="product-card" data-nome="Açúcar Refinado 1kg" data-preco="4.89"><img src="{{ url_for('static', filename='assets/produto-acucar.svg') }}" alt="Açúcar"><div><strong>Açúcar Refinado 1kg</strong><small>R$ 4,89</small></div><button type="button">Adicionar</button></article>
+              <article class="product-card" data-nome="Óleo de Soja 900ml" data-preco="7.99"><img src="{{ url_for('static', filename='assets/produto-oleo.svg') }}" alt="Óleo"><div><strong>Óleo de Soja 900ml</strong><small>R$ 7,99</small></div><button type="button">Adicionar</button></article>
             </div>
 
             <label>Observações
-              <textarea name="observacoes" placeholder="Ex.: entregar na portaria, chamar pelo WhatsApp, não substituir produtos..."></textarea>
+              <textarea name="observacao" placeholder="Ex.: entregar na portaria, chamar pelo WhatsApp, não substituir produtos..."></textarea>
             </label>
 
             <label class="switch-line">
@@ -180,7 +202,7 @@
 
           <aside class="delivery-panel glass-card">
             <h3>Rota em destaque</h3>
-            <img src="../assets/mapa-rota.svg" alt="Mapa ilustrativo da rota de entrega" />
+            <img src="{{ url_for('static', filename='assets/mapa-rota.svg') }}" alt="Mapa ilustrativo da rota de entrega" />
             <div class="timeline">
               <div class="done"><strong>Pedido recebido</strong><span>13:10</span></div>
               <div class="done"><strong>Em separação</strong><span>13:22</span></div>
@@ -236,6 +258,6 @@
   </div>
 
   <div class="toast" id="toast">Pedido cadastrado com sucesso!</div>
-  <script src="../JS/script.js"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
