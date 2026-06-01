@@ -14,15 +14,12 @@
         <span class="logo-symbol">E</span>
         <span>
           <strong>Extra Entregas</strong>
-          <small>Monitoramento logístico</small>
+          <small>Pedidos online</small>
         </span>
       </a>
       <nav class="side-nav">
         <a href="#inicio" class="active"><span>▣</span> Início</a>
         <a href="#pedido"><span>＋</span> Novo pedido</a>
-        <a href="#monitoramento"><span>◈</span> Monitoramento</a>
-        <a href="#dashboard"><span>▥</span> Indicadores</a>
-        <a href="#relatorios"><span>☷</span> Relatórios</a>
       </nav>
       <div class="sidebar-card">
         <span class="pulse-dot"></span>
@@ -40,14 +37,13 @@
       <section class="hero-section" id="inicio">
         <div class="hero-copy">
           <span class="tag">Sistema Web • Mercado Extra</span>
-          <h1>Pedidos, entregas e indicadores em uma interface de respeito.</h1>
+          <h1>Faça seu pedido online de forma rápida e segura.</h1>
           <p>
-            Plataforma para clientes realizarem pedidos online e para a equipe acompanhar status,
-            entregador, horários, código de segurança, observações e relatórios gerenciais.
+            Escolha os produtos, informe seus dados de entrega e acompanhe a confirmação do pedido.
+            O monitoramento da entrega será feito internamente pelo sistema SME.
           </p>
           <div class="hero-actions">
             <a href="#pedido" class="btn primary">Criar pedido</a>
-            <a href="#dashboard" class="btn secondary">Ver dashboard</a>
           </div>
           <div class="hero-stats" aria-label="Resumo do sistema">
             <article><strong>14</strong><span>Requisitos funcionais</span></article>
@@ -59,10 +55,9 @@
           <img src="{{ url_for('static', filename='assets/delivery-hero.svg') }}" alt="Ilustração de entregador com sacolas de mercado" />
           <div class="tracking-widget">
             <div>
-              <small>Entrega #EX-1048</small>
-              <strong>Saiu para entrega</strong>
+              <small>O Extra tem de melhor</small>
+              <strong>Entrega rápidas e seguras</strong>
             </div>
-            <span class="status-pill green">Código ativo</span>
           </div>
           <div class="route-line">
             <span class="route-point store">Extra</span>
@@ -161,97 +156,6 @@
               <strong id="cartTotal">R$ 0,00</strong>
             </div>
           </aside>
-        </div>
-      </section>
-
-      <section class="section" id="monitoramento">
-        <div class="section-title inline-title">
-          <div>
-            <span class="tag">RF02 • RF03 • RF04 • RF05 • RF06 • RF10</span>
-            <h2>Monitoramento das entregas</h2>
-          </div>
-          <div class="table-tools">
-            <input id="buscaPedido" placeholder="Buscar por cliente, entregador ou status" />
-            <select id="filtroStatus">
-              <option value="todos">Todos os status</option>
-              <option value="Pedido recebido">Pedido recebido</option>
-              <option value="Em separação">Em separação</option>
-              <option value="Saiu para entrega">Saiu para entrega</option>
-              <option value="Entregue">Entregue</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="monitor-layout">
-          <div class="table-card glass-card">
-            <table>
-              <thead>
-                <tr>
-                  <th>Cód.</th>
-                  <th>Cliente</th>
-                  <th>Entregador</th>
-                  <th>Status</th>
-                  <th>Saída</th>
-                  <th>Entrega</th>
-                  <th>Total</th>
-                </tr>
-              </thead>
-              <tbody id="tabelaPedidos"></tbody>
-            </table>
-          </div>
-
-          <aside class="delivery-panel glass-card">
-            <h3>Rota em destaque</h3>
-            <img src="{{ url_for('static', filename='assets/mapa-rota.svg') }}" alt="Mapa ilustrativo da rota de entrega" />
-            <div class="timeline">
-              <div class="done"><strong>Pedido recebido</strong><span>13:10</span></div>
-              <div class="done"><strong>Em separação</strong><span>13:22</span></div>
-              <div class="active"><strong>Saiu para entrega</strong><span>14:05</span></div>
-              <div><strong>Entregue</strong><span>Previsto 14:48</span></div>
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <section class="section dashboard-section" id="dashboard">
-        <div class="section-title inline-title">
-          <div>
-            <span class="tag">RF12 • RF13</span>
-            <h2>Indicadores e gráficos</h2>
-          </div>
-          <button class="btn secondary" type="button" id="btnAtualizar">Atualizar painel</button>
-        </div>
-
-        <div class="kpi-grid">
-          <article class="kpi-card"><span>Pedidos hoje</span><strong id="kpiPedidos">0</strong><small>inclui pedidos simulados e novos</small></article>
-          <article class="kpi-card"><span>Faturamento</span><strong id="kpiFaturamento">R$ 0,00</strong><small>soma de pedidos cadastrados</small></article>
-          <article class="kpi-card"><span>Entregas concluídas</span><strong id="kpiConcluidas">0</strong><small>status entregue</small></article>
-          <article class="kpi-card"><span>Código ativo</span><strong id="kpiCodigo">0%</strong><small>pedidos com confirmação</small></article>
-        </div>
-
-        <div class="charts-grid">
-          <article class="chart-card glass-card">
-            <header><h3>Volume por dia</h3><span>semana atual</span></header>
-            <canvas id="barChart" width="600" height="260" aria-label="Gráfico de barras"></canvas>
-          </article>
-          <article class="chart-card glass-card">
-            <header><h3>Status das entregas</h3><span>distribuição</span></header>
-            <canvas id="donutChart" width="360" height="260" aria-label="Gráfico de rosca"></canvas>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="relatorios">
-        <div class="section-title">
-          <span class="tag">Relatórios gerenciais</span>
-          <h2>Visão para tomada de decisão</h2>
-          <p>Resumo visual pensado para controle logístico: atrasos, entregadores, valores, status e observações críticas.</p>
-        </div>
-
-        <div class="report-grid">
-          <article class="report-card"><span class="report-icon">⚑</span><strong>Pedidos atrasados</strong><p>Identifica entregas que ultrapassaram o tempo previsto e precisam de atenção.</p></article>
-          <article class="report-card"><span class="report-icon">◉</span><strong>Entregador responsável</strong><p>Permite acompanhar desempenho e distribuição das entregas por funcionário.</p></article>
-          <article class="report-card"><span class="report-icon">▤</span><strong>Observações importantes</strong><p>Registra informações úteis para evitar falhas na entrega ao cliente.</p></article>
         </div>
       </section>
     </main>

@@ -34,16 +34,6 @@ def verificar_status():
         }), 500
 
 
-@app.route("/api/pedidos", methods=["GET"])
-def listar_pedidos():
-    pedidos = list(colecao.find().sort("data_pedido", -1))
-
-    for pedido in pedidos:
-        pedido["_id"] = str(pedido["_id"])
-
-    return jsonify(pedidos)
-
-
 @app.route("/api/pedidos", methods=["POST"])
 def criar_pedido():
     dados = request.get_json() or {}
@@ -153,23 +143,6 @@ def gerar_codigo_seguranca(dados):
         return str(random.randint(1000, 9999))
 
     return "Desativado"
-
-
-@app.route("/api/pedidos/<id_pedido>", methods=["DELETE"])
-def excluir_pedido(id_pedido):
-    resultado = colecao.delete_one({
-        "_id": ObjectId(id_pedido)
-    })
-
-    if resultado.deleted_count == 0:
-        return jsonify({
-            "mensagem": "Pedido não encontrado."
-        }), 404
-
-    return jsonify({
-        "mensagem": "Pedido excluído com sucesso."
-    })
-    
 
 if __name__ == "__main__":
     app.run(debug=True)
