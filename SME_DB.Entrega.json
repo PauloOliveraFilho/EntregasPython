@@ -1,0 +1,8868 @@
+[{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e40"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 4,
+      "preco_unitario": 3.49,
+      "valor_total_item": 13.96
+    }
+  ],
+  "comprador": {
+    "nome": "Vanessa Costa",
+    "cpf": "748.878.978-28",
+    "telefone": "(15) 92752-4667"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Pedro Voss",
+    "numero": 504,
+    "complemento": "Casa",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu prioridade na entrega.",
+  "frete": 10,
+  "valor_produtos": 13.96,
+  "valor_total": 23.96,
+  "codigo_seguranca": "8597",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Endereço informado estava incorreto.",
+  "data_pedido": "2026-06-01",
+  "hora_pedido": "13:13",
+  "previsao_entrega": "13:52",
+  "data_entrega": "2026-06-01",
+  "hora_entrega": "14:20",
+  "criado_em": {
+    "$date": "2026-06-01T13:13:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-06-01T14:20:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 1
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e41"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 3,
+      "preco_unitario": 22.9,
+      "valor_total_item": 68.7
+    }
+  ],
+  "comprador": {
+    "nome": "Gustavo Lima",
+    "cpf": "944.542.697-23",
+    "telefone": "(15) 96808-5296"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 143,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 6,
+  "valor_produtos": 68.7,
+  "valor_total": 74.7,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-15",
+  "hora_pedido": "13:22",
+  "previsao_entrega": "14:19",
+  "data_entrega": "2026-05-15",
+  "hora_entrega": "14:22",
+  "criado_em": {
+    "$date": "2026-05-15T13:22:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-15T14:22:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 2
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e42"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 2,
+      "preco_unitario": 18.9,
+      "valor_total_item": 37.8
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 2,
+      "preco_unitario": 3.49,
+      "valor_total_item": 6.98
+    }
+  ],
+  "comprador": {
+    "nome": "Larissa Gomes",
+    "cpf": "606.313.130-27",
+    "telefone": "(15) 99725-6314"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 722,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Apertar a campainha.",
+  "frete": 12,
+  "valor_produtos": 139.28,
+  "valor_total": 151.28,
+  "codigo_seguranca": "6446",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-06-01",
+  "hora_pedido": "08:00",
+  "previsao_entrega": "08:45",
+  "data_entrega": "2026-06-01",
+  "hora_entrega": "09:07",
+  "criado_em": {
+    "$date": "2026-06-01T08:00:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-06-01T09:07:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 3
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e43"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Sabão em Pó 1kg",
+      "quantidade": 1,
+      "preco_unitario": 12.9,
+      "valor_total_item": 12.9
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 5,
+      "preco_unitario": 4.89,
+      "valor_total_item": 24.45
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Desinfetante 2L",
+      "quantidade": 4,
+      "preco_unitario": 7.9,
+      "valor_total_item": 31.6
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 5,
+      "preco_unitario": 8.49,
+      "valor_total_item": 42.45
+    }
+  ],
+  "comprador": {
+    "nome": "João Pedro",
+    "cpf": "958.924.927-55",
+    "telefone": "(15) 93925-6904"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 611,
+    "complemento": "Casa",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 7,
+  "valor_produtos": 111.4,
+  "valor_total": 118.4,
+  "codigo_seguranca": "3942",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-23",
+  "hora_pedido": "08:45",
+  "previsao_entrega": "09:55",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-23T08:45:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 4
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e44"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Molho de Tomate 340g",
+      "quantidade": 1,
+      "preco_unitario": 3.89,
+      "valor_total_item": 3.89
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Papel Higiênico 12 rolos",
+      "quantidade": 2,
+      "preco_unitario": 17.9,
+      "valor_total_item": 35.8
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 5,
+      "preco_unitario": 8.49,
+      "valor_total_item": 42.45
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 1,
+      "preco_unitario": 22.9,
+      "valor_total_item": 22.9
+    }
+  ],
+  "comprador": {
+    "nome": "Daniel Souza",
+    "cpf": "613.413.832-27",
+    "telefone": "(15) 98008-4254"
+  },
+  "entregador": {
+    "nome": "Aguardando associação",
+    "matricula": "",
+    "veiculo": {
+      "tipo": "",
+      "marca": "",
+      "placa": ""
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 538,
+    "complemento": "Casa",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Apertar a campainha.",
+  "frete": 12,
+  "valor_produtos": 105.04,
+  "valor_total": 117.04,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-06-01",
+  "hora_pedido": "13:01",
+  "previsao_entrega": "13:59",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-06-01T13:01:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 5
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e45"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 2,
+      "preco_unitario": 2.99,
+      "valor_total_item": 5.98
+    }
+  ],
+  "comprador": {
+    "nome": "João Pedro",
+    "cpf": "244.799.725-49",
+    "telefone": "(15) 97427-5883"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 604,
+    "complemento": "",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 12,
+  "valor_produtos": 5.98,
+  "valor_total": 17.98,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-10",
+  "hora_pedido": "18:33",
+  "previsao_entrega": "19:33",
+  "data_entrega": "2026-05-10",
+  "hora_entrega": "19:41",
+  "criado_em": {
+    "$date": "2026-05-10T18:33:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-10T19:41:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 6
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e46"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 3,
+      "preco_unitario": 2.99,
+      "valor_total_item": 8.97
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 5,
+      "preco_unitario": 26.9,
+      "valor_total_item": 134.5
+    }
+  ],
+  "comprador": {
+    "nome": "Juliana Castro",
+    "cpf": "171.562.170-86",
+    "telefone": "(15) 94813-9404"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 270,
+    "complemento": "Fundos",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu prioridade na entrega.",
+  "frete": 6,
+  "valor_produtos": 143.47,
+  "valor_total": 149.47,
+  "codigo_seguranca": "1938",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Produto danificado durante o transporte.",
+  "data_pedido": "2026-05-09",
+  "hora_pedido": "18:02",
+  "previsao_entrega": "18:45",
+  "data_entrega": "2026-05-09",
+  "hora_entrega": "19:24",
+  "criado_em": {
+    "$date": "2026-05-09T18:02:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-09T19:24:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 7
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e47"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 2,
+      "preco_unitario": 5.99,
+      "valor_total_item": 11.98
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Óleo de Soja 900ml",
+      "quantidade": 3,
+      "preco_unitario": 7.99,
+      "valor_total_item": 23.97
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 2,
+      "preco_unitario": 8.49,
+      "valor_total_item": 16.98
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 1,
+      "preco_unitario": 9.99,
+      "valor_total_item": 9.99
+    }
+  ],
+  "comprador": {
+    "nome": "Isabela Rocha",
+    "cpf": "244.212.432-35",
+    "telefone": "(15) 91822-7224"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 290,
+    "complemento": "Casa",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 7,
+  "valor_produtos": 62.92,
+  "valor_total": 69.92,
+  "codigo_seguranca": "1236",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Cliente recusou o pedido.",
+  "data_pedido": "2026-05-22",
+  "hora_pedido": "09:23",
+  "previsao_entrega": "10:25",
+  "data_entrega": "2026-05-22",
+  "hora_entrega": "10:46",
+  "criado_em": {
+    "$date": "2026-05-22T09:23:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-22T10:46:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 8
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e48"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 5,
+      "preco_unitario": 4.89,
+      "valor_total_item": 24.45
+    }
+  ],
+  "comprador": {
+    "nome": "Willian Oliveira",
+    "cpf": "330.705.214-89",
+    "telefone": "(15) 96188-5331"
+  },
+  "entregador": {
+    "nome": "Aguardando associação",
+    "matricula": "",
+    "veiculo": {
+      "tipo": "",
+      "marca": "",
+      "placa": ""
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Pedro Voss",
+    "numero": 597,
+    "complemento": "Fundos",
+    "bairro": "Vila Mazzei",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 8,
+  "valor_produtos": 24.45,
+  "valor_total": 32.45,
+  "codigo_seguranca": "2840",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-20",
+  "hora_pedido": "20:57",
+  "previsao_entrega": "22:15",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-20T20:57:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 9
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e49"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 4,
+      "preco_unitario": 8.49,
+      "valor_total_item": 33.96
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.49,
+      "valor_total_item": 12.98
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 3,
+      "preco_unitario": 22.9,
+      "valor_total_item": 68.7
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Molho de Tomate 340g",
+      "quantidade": 1,
+      "preco_unitario": 3.89,
+      "valor_total_item": 3.89
+    }
+  ],
+  "comprador": {
+    "nome": "Lucas Gabriel",
+    "cpf": "885.884.546-81",
+    "telefone": "(15) 96536-3930"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 291,
+    "complemento": "Casa",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 10,
+  "valor_produtos": 119.53,
+  "valor_total": 129.53,
+  "codigo_seguranca": "1702",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-16",
+  "hora_pedido": "11:39",
+  "previsao_entrega": "12:55",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-16T11:39:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 10
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e4a"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 2,
+      "preco_unitario": 26.9,
+      "valor_total_item": 53.8
+    }
+  ],
+  "comprador": {
+    "nome": "Willian Oliveira",
+    "cpf": "109.636.952-26",
+    "telefone": "(15) 93362-4686"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua João Evangelista",
+    "numero": 78,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Rio Branco",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 10,
+  "valor_produtos": 53.8,
+  "valor_total": 63.8,
+  "codigo_seguranca": "6321",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-12",
+  "hora_pedido": "13:47",
+  "previsao_entrega": "15:06",
+  "data_entrega": "2026-05-12",
+  "hora_entrega": "15:20",
+  "criado_em": {
+    "$date": "2026-05-12T13:47:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-12T15:20:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 11
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e4b"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 3,
+      "preco_unitario": 4.89,
+      "valor_total_item": 14.67
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 4,
+      "preco_unitario": 9.9,
+      "valor_total_item": 39.6
+    }
+  ],
+  "comprador": {
+    "nome": "Rafael Silva",
+    "cpf": "847.412.974-33",
+    "telefone": "(15) 93372-8770"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Pedro Voss",
+    "numero": 143,
+    "complemento": "Fundos",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 9,
+  "valor_produtos": 54.27,
+  "valor_total": 63.27,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-14",
+  "hora_pedido": "15:39",
+  "previsao_entrega": "16:51",
+  "data_entrega": "2026-05-14",
+  "hora_entrega": "17:04",
+  "criado_em": {
+    "$date": "2026-05-14T15:39:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-14T17:04:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 12
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e4c"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Sabão em Pó 1kg",
+      "quantidade": 1,
+      "preco_unitario": 12.9,
+      "valor_total_item": 12.9
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 1,
+      "preco_unitario": 5.99,
+      "valor_total_item": 5.99
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 4,
+      "preco_unitario": 7.49,
+      "valor_total_item": 29.96
+    }
+  ],
+  "comprador": {
+    "nome": "Isabela Rocha",
+    "cpf": "462.133.287-72",
+    "telefone": "(15) 94595-3557"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 802,
+    "complemento": "",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 9,
+  "valor_produtos": 48.85,
+  "valor_total": 57.85,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-26",
+  "hora_pedido": "20:10",
+  "previsao_entrega": "20:51",
+  "data_entrega": "2026-05-26",
+  "hora_entrega": "20:49",
+  "criado_em": {
+    "$date": "2026-05-26T20:10:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-26T20:49:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 13
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e4d"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 2,
+      "preco_unitario": 18.9,
+      "valor_total_item": 37.8
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 4,
+      "preco_unitario": 22.9,
+      "valor_total_item": 91.6
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 4,
+      "preco_unitario": 7.49,
+      "valor_total_item": 29.96
+    }
+  ],
+  "comprador": {
+    "nome": "Henrique Alves",
+    "cpf": "969.592.715-26",
+    "telefone": "(15) 95188-5964"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 935,
+    "complemento": "Bloco B",
+    "bairro": "Vila Rio Branco",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar no portão lateral.",
+  "frete": 8,
+  "valor_produtos": 159.36,
+  "valor_total": 167.36,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-15",
+  "hora_pedido": "20:01",
+  "previsao_entrega": "20:33",
+  "data_entrega": "2026-05-15",
+  "hora_entrega": "20:32",
+  "criado_em": {
+    "$date": "2026-05-15T20:01:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-15T20:32:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 14
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e4e"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 1,
+      "preco_unitario": 2.99,
+      "valor_total_item": 2.99
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 5,
+      "preco_unitario": 3.49,
+      "valor_total_item": 17.45
+    }
+  ],
+  "comprador": {
+    "nome": "Eduarda Lima",
+    "cpf": "735.537.210-25",
+    "telefone": "(15) 94216-5135"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 795,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 7,
+  "valor_produtos": 20.44,
+  "valor_total": 27.44,
+  "codigo_seguranca": "4595",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-19",
+  "hora_pedido": "14:41",
+  "previsao_entrega": "15:23",
+  "data_entrega": "2026-05-19",
+  "hora_entrega": "15:46",
+  "criado_em": {
+    "$date": "2026-05-19T14:41:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-19T15:46:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 15
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e4f"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Sabão em Pó 1kg",
+      "quantidade": 2,
+      "preco_unitario": 12.9,
+      "valor_total_item": 25.8
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 1,
+      "preco_unitario": 8.49,
+      "valor_total_item": 8.49
+    }
+  ],
+  "comprador": {
+    "nome": "Otavio Pereira",
+    "cpf": "535.584.655-65",
+    "telefone": "(15) 91670-1924"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 309,
+    "complemento": "Fundos",
+    "bairro": "Vila Rio Branco",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 8,
+  "valor_produtos": 34.29,
+  "valor_total": 42.29,
+  "codigo_seguranca": "8801",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-09",
+  "hora_pedido": "12:37",
+  "previsao_entrega": "13:35",
+  "data_entrega": "2026-05-09",
+  "hora_entrega": "13:37",
+  "criado_em": {
+    "$date": "2026-05-09T12:37:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-09T13:37:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 16
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e50"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 3,
+      "preco_unitario": 12.5,
+      "valor_total_item": 37.5
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 1,
+      "preco_unitario": 5.99,
+      "valor_total_item": 5.99
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 4,
+      "preco_unitario": 2.49,
+      "valor_total_item": 9.96
+    }
+  ],
+  "comprador": {
+    "nome": "Gabriela Santos",
+    "cpf": "697.879.219-52",
+    "telefone": "(15) 96944-5731"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 50,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 10,
+  "valor_produtos": 53.45,
+  "valor_total": 63.45,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-19",
+  "hora_pedido": "20:05",
+  "previsao_entrega": "20:53",
+  "data_entrega": "2026-05-19",
+  "hora_entrega": "21:00",
+  "criado_em": {
+    "$date": "2026-05-19T20:05:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-19T21:00:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 17
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e51"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 3,
+      "preco_unitario": 7.49,
+      "valor_total_item": 22.47
+    }
+  ],
+  "comprador": {
+    "nome": "Otavio Pereira",
+    "cpf": "795.323.283-99",
+    "telefone": "(15) 91633-4213"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 444,
+    "complemento": "Casa",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 9,
+  "valor_produtos": 22.47,
+  "valor_total": 31.47,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-10",
+  "hora_pedido": "13:01",
+  "previsao_entrega": "13:44",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-10T13:01:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 18
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e52"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 4,
+      "preco_unitario": 22.9,
+      "valor_total_item": 91.6
+    },
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 2,
+      "preco_unitario": 18.9,
+      "valor_total_item": 37.8
+    }
+  ],
+  "comprador": {
+    "nome": "Daniel Souza",
+    "cpf": "995.882.137-17",
+    "telefone": "(15) 92816-6270"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 654,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 9,
+  "valor_produtos": 129.4,
+  "valor_total": 138.4,
+  "codigo_seguranca": "7299",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-18",
+  "hora_pedido": "17:04",
+  "previsao_entrega": "18:19",
+  "data_entrega": "2026-05-18",
+  "hora_entrega": "18:20",
+  "criado_em": {
+    "$date": "2026-05-18T17:04:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-18T18:20:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 19
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e53"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 1,
+      "preco_unitario": 5.99,
+      "valor_total_item": 5.99
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 3,
+      "preco_unitario": 22.9,
+      "valor_total_item": 68.7
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 3,
+      "preco_unitario": 2.99,
+      "valor_total_item": 8.97
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 5,
+      "preco_unitario": 9.99,
+      "valor_total_item": 49.95
+    }
+  ],
+  "comprador": {
+    "nome": "Ana Carolina",
+    "cpf": "241.654.103-50",
+    "telefone": "(15) 92268-4503"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 893,
+    "complemento": "Fundos",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 7,
+  "valor_produtos": 133.61,
+  "valor_total": 140.61,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-23",
+  "hora_pedido": "12:33",
+  "previsao_entrega": "13:40",
+  "data_entrega": "2026-05-23",
+  "hora_entrega": "13:49",
+  "criado_em": {
+    "$date": "2026-05-23T12:33:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-23T13:49:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 20
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e54"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 2,
+      "preco_unitario": 5.99,
+      "valor_total_item": 11.98
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 4,
+      "preco_unitario": 2.49,
+      "valor_total_item": 9.96
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Papel Higiênico 12 rolos",
+      "quantidade": 5,
+      "preco_unitario": 17.9,
+      "valor_total_item": 89.5
+    }
+  ],
+  "comprador": {
+    "nome": "Henrique Alves",
+    "cpf": "883.608.210-27",
+    "telefone": "(15) 91756-5762"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 749,
+    "complemento": "Fundos",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 7,
+  "valor_produtos": 135.4,
+  "valor_total": 142.4,
+  "codigo_seguranca": "Desativado",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Cliente não estava no endereço.",
+  "data_pedido": "2026-05-15",
+  "hora_pedido": "14:13",
+  "previsao_entrega": "15:16",
+  "data_entrega": "2026-05-15",
+  "hora_entrega": "15:57",
+  "criado_em": {
+    "$date": "2026-05-15T14:13:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-15T15:57:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 21
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e55"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 3,
+      "preco_unitario": 5.99,
+      "valor_total_item": 17.97
+    },
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 4,
+      "preco_unitario": 5.29,
+      "valor_total_item": 21.16
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.99,
+      "valor_total_item": 34.95
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 1,
+      "preco_unitario": 9.99,
+      "valor_total_item": 9.99
+    }
+  ],
+  "comprador": {
+    "nome": "Sabrina Almeida",
+    "cpf": "405.405.801-26",
+    "telefone": "(15) 99762-7480"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 581,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 8,
+  "valor_produtos": 84.07,
+  "valor_total": 92.07,
+  "codigo_seguranca": "Desativado",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Cliente recusou o pedido.",
+  "data_pedido": "2026-05-12",
+  "hora_pedido": "15:43",
+  "previsao_entrega": "16:30",
+  "data_entrega": "2026-05-12",
+  "hora_entrega": "17:01",
+  "criado_em": {
+    "$date": "2026-05-12T15:43:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-12T17:01:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 22
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e56"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 2,
+      "preco_unitario": 5.99,
+      "valor_total_item": 11.98
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 4,
+      "preco_unitario": 8.49,
+      "valor_total_item": 33.96
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Óleo de Soja 900ml",
+      "quantidade": 4,
+      "preco_unitario": 7.99,
+      "valor_total_item": 31.96
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 4,
+      "preco_unitario": 9.9,
+      "valor_total_item": 39.6
+    }
+  ],
+  "comprador": {
+    "nome": "Juliana Castro",
+    "cpf": "732.700.653-19",
+    "telefone": "(15) 93906-3665"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 653,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 8,
+  "valor_produtos": 117.5,
+  "valor_total": 125.5,
+  "codigo_seguranca": "7083",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-25",
+  "hora_pedido": "12:00",
+  "previsao_entrega": "13:17",
+  "data_entrega": "2026-05-25",
+  "hora_entrega": "13:16",
+  "criado_em": {
+    "$date": "2026-05-25T12:00:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-25T13:16:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 23
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e57"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Óleo de Soja 900ml",
+      "quantidade": 4,
+      "preco_unitario": 7.99,
+      "valor_total_item": 31.96
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 1,
+      "preco_unitario": 3.49,
+      "valor_total_item": 3.49
+    }
+  ],
+  "comprador": {
+    "nome": "Natalia Ferreira",
+    "cpf": "318.347.884-14",
+    "telefone": "(15) 98293-9131"
+  },
+  "entregador": {
+    "nome": "Aguardando associação",
+    "matricula": "",
+    "veiculo": {
+      "tipo": "",
+      "marca": "",
+      "placa": ""
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 733,
+    "complemento": "Casa",
+    "bairro": "Vila Mazzei",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 5,
+  "valor_produtos": 35.45,
+  "valor_total": 40.45,
+  "codigo_seguranca": "3133",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-25",
+  "hora_pedido": "11:01",
+  "previsao_entrega": "11:46",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-25T11:01:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 24
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e58"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Batata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.49,
+      "valor_total_item": 32.45
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 4,
+      "preco_unitario": 3.49,
+      "valor_total_item": 13.96
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 2,
+      "preco_unitario": 12.5,
+      "valor_total_item": 25
+    }
+  ],
+  "comprador": {
+    "nome": "Patricia Moraes",
+    "cpf": "516.119.111-65",
+    "telefone": "(15) 92976-7212"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 837,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 8,
+  "valor_produtos": 71.41,
+  "valor_total": 79.41,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-22",
+  "hora_pedido": "08:16",
+  "previsao_entrega": "08:48",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-22T08:16:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 25
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e59"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 4,
+      "preco_unitario": 2.99,
+      "valor_total_item": 11.96
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Batata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.49,
+      "valor_total_item": 32.45
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 5,
+      "preco_unitario": 9.99,
+      "valor_total_item": 49.95
+    },
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 3,
+      "preco_unitario": 5.29,
+      "valor_total_item": 15.87
+    }
+  ],
+  "comprador": {
+    "nome": "Gabriela Santos",
+    "cpf": "465.198.870-24",
+    "telefone": "(15) 92202-3975"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 761,
+    "complemento": "Casa",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 5,
+  "valor_produtos": 110.23,
+  "valor_total": 115.23,
+  "codigo_seguranca": "4423",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-04",
+  "hora_pedido": "13:18",
+  "previsao_entrega": "14:26",
+  "data_entrega": "2026-05-04",
+  "hora_entrega": "14:41",
+  "criado_em": {
+    "$date": "2026-05-04T13:18:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-04T14:41:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 26
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e5a"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 2,
+      "preco_unitario": 22.9,
+      "valor_total_item": 45.8
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 3,
+      "preco_unitario": 9.9,
+      "valor_total_item": 29.7
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 3,
+      "preco_unitario": 8.49,
+      "valor_total_item": 25.47
+    }
+  ],
+  "comprador": {
+    "nome": "Caio Ribeiro",
+    "cpf": "636.518.600-95",
+    "telefone": "(15) 92981-4554"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 648,
+    "complemento": "Casa",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 10,
+  "valor_produtos": 100.97,
+  "valor_total": 110.97,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-21",
+  "hora_pedido": "10:32",
+  "previsao_entrega": "11:18",
+  "data_entrega": "2026-05-21",
+  "hora_entrega": "11:26",
+  "criado_em": {
+    "$date": "2026-05-21T10:32:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-21T11:26:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 27
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e5b"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 4,
+      "preco_unitario": 2.49,
+      "valor_total_item": 9.96
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 4,
+      "preco_unitario": 3.49,
+      "valor_total_item": 13.96
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Sabão em Pó 1kg",
+      "quantidade": 1,
+      "preco_unitario": 12.9,
+      "valor_total_item": 12.9
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.49,
+      "valor_total_item": 12.98
+    }
+  ],
+  "comprador": {
+    "nome": "Sabrina Almeida",
+    "cpf": "690.669.337-77",
+    "telefone": "(15) 93597-5456"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 713,
+    "complemento": "Casa",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 7,
+  "valor_produtos": 49.8,
+  "valor_total": 56.8,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-04",
+  "hora_pedido": "16:40",
+  "previsao_entrega": "17:29",
+  "data_entrega": "2026-05-04",
+  "hora_entrega": "17:27",
+  "criado_em": {
+    "$date": "2026-05-04T16:40:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-04T17:27:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 28
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e5c"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 3,
+      "preco_unitario": 12.5,
+      "valor_total_item": 37.5
+    }
+  ],
+  "comprador": {
+    "nome": "Bruno Henrique",
+    "cpf": "804.555.823-37",
+    "telefone": "(15) 98190-4749"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 990,
+    "complemento": "",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 6,
+  "valor_produtos": 61.46,
+  "valor_total": 67.46,
+  "codigo_seguranca": "3233",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Cliente recusou o pedido.",
+  "data_pedido": "2026-05-12",
+  "hora_pedido": "13:40",
+  "previsao_entrega": "14:34",
+  "data_entrega": "2026-05-12",
+  "hora_entrega": "15:10",
+  "criado_em": {
+    "$date": "2026-05-12T13:40:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-12T15:10:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 29
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e5d"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 4,
+      "preco_unitario": 6.99,
+      "valor_total_item": 27.96
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Batata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.49,
+      "valor_total_item": 32.45
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Sabão em Pó 1kg",
+      "quantidade": 3,
+      "preco_unitario": 12.9,
+      "valor_total_item": 38.7
+    }
+  ],
+  "comprador": {
+    "nome": "Patricia Moraes",
+    "cpf": "404.540.413-98",
+    "telefone": "(15) 98118-5210"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 837,
+    "complemento": "Casa",
+    "bairro": "Vila Rio Branco",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 8,
+  "valor_produtos": 123.07,
+  "valor_total": 131.07,
+  "codigo_seguranca": "5072",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-28",
+  "hora_pedido": "14:39",
+  "previsao_entrega": "15:43",
+  "data_entrega": "2026-05-28",
+  "hora_entrega": "15:35",
+  "criado_em": {
+    "$date": "2026-05-28T14:39:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-28T15:35:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 30
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e5e"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.99,
+      "valor_total_item": 13.98
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Óleo de Soja 900ml",
+      "quantidade": 3,
+      "preco_unitario": 7.99,
+      "valor_total_item": 23.97
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 3,
+      "preco_unitario": 4.89,
+      "valor_total_item": 14.67
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Batata 1kg",
+      "quantidade": 3,
+      "preco_unitario": 6.49,
+      "valor_total_item": 19.47
+    }
+  ],
+  "comprador": {
+    "nome": "Thiago Moreira",
+    "cpf": "375.252.195-92",
+    "telefone": "(15) 94188-8952"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 914,
+    "complemento": "Fundos",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 9,
+  "valor_produtos": 72.09,
+  "valor_total": 81.09,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-20",
+  "hora_pedido": "11:02",
+  "previsao_entrega": "12:17",
+  "data_entrega": "2026-05-20",
+  "hora_entrega": "12:36",
+  "criado_em": {
+    "$date": "2026-05-20T11:02:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-20T12:36:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 31
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e5f"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 4,
+      "preco_unitario": 5.29,
+      "valor_total_item": 21.16
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 4,
+      "preco_unitario": 6.49,
+      "valor_total_item": 25.96
+    }
+  ],
+  "comprador": {
+    "nome": "Gabriela Santos",
+    "cpf": "919.772.368-18",
+    "telefone": "(15) 99125-5418"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 440,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Mazzei",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar no portão lateral.",
+  "frete": 10,
+  "valor_produtos": 47.12,
+  "valor_total": 57.12,
+  "codigo_seguranca": "7386",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-30",
+  "hora_pedido": "16:24",
+  "previsao_entrega": "17:07",
+  "data_entrega": "2026-05-30",
+  "hora_entrega": "17:02",
+  "criado_em": {
+    "$date": "2026-05-30T16:24:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-30T17:02:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 32
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e60"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 3,
+      "preco_unitario": 5.99,
+      "valor_total_item": 17.97
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Óleo de Soja 900ml",
+      "quantidade": 3,
+      "preco_unitario": 7.99,
+      "valor_total_item": 23.97
+    }
+  ],
+  "comprador": {
+    "nome": "Gustavo Lima",
+    "cpf": "922.626.322-87",
+    "telefone": "(15) 98386-2589"
+  },
+  "entregador": {
+    "nome": "Aguardando associação",
+    "matricula": "",
+    "veiculo": {
+      "tipo": "",
+      "marca": "",
+      "placa": ""
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 235,
+    "complemento": "",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu prioridade na entrega.",
+  "frete": 9,
+  "valor_produtos": 41.94,
+  "valor_total": 50.94,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-22",
+  "hora_pedido": "11:45",
+  "previsao_entrega": "12:21",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-22T11:45:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 33
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e61"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 1,
+      "preco_unitario": 3.49,
+      "valor_total_item": 3.49
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 1,
+      "preco_unitario": 8.49,
+      "valor_total_item": 8.49
+    },
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 5,
+      "preco_unitario": 14.9,
+      "valor_total_item": 74.5
+    }
+  ],
+  "comprador": {
+    "nome": "Rafael Silva",
+    "cpf": "462.765.615-16",
+    "telefone": "(15) 94867-6107"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 611,
+    "complemento": "Fundos",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 12,
+  "valor_produtos": 110.44,
+  "valor_total": 122.44,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-25",
+  "hora_pedido": "12:40",
+  "previsao_entrega": "13:43",
+  "data_entrega": "2026-05-25",
+  "hora_entrega": "13:35",
+  "criado_em": {
+    "$date": "2026-05-25T12:40:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-25T13:35:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 34
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e62"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 5,
+      "preco_unitario": 3.49,
+      "valor_total_item": 17.45
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 3,
+      "preco_unitario": 7.49,
+      "valor_total_item": 22.47
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 3,
+      "preco_unitario": 5.99,
+      "valor_total_item": 17.97
+    },
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 1,
+      "preco_unitario": 18.9,
+      "valor_total_item": 18.9
+    }
+  ],
+  "comprador": {
+    "nome": "Juliana Castro",
+    "cpf": "270.626.255-26",
+    "telefone": "(15) 92090-6489"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 314,
+    "complemento": "Casa",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 8,
+  "valor_produtos": 76.79,
+  "valor_total": 84.79,
+  "codigo_seguranca": "2020",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-27",
+  "hora_pedido": "21:32",
+  "previsao_entrega": "22:35",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-27T21:32:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 35
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e63"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Papel Higiênico 12 rolos",
+      "quantidade": 2,
+      "preco_unitario": 17.9,
+      "valor_total_item": 35.8
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 2,
+      "preco_unitario": 12.5,
+      "valor_total_item": 25
+    }
+  ],
+  "comprador": {
+    "nome": "Willian Oliveira",
+    "cpf": "855.513.179-67",
+    "telefone": "(15) 93356-9818"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 800,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 12,
+  "valor_produtos": 60.8,
+  "valor_total": 72.8,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-25",
+  "hora_pedido": "14:25",
+  "previsao_entrega": "15:33",
+  "data_entrega": "2026-05-25",
+  "hora_entrega": "15:26",
+  "criado_em": {
+    "$date": "2026-05-25T14:25:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-25T15:26:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 36
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e64"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 5,
+      "preco_unitario": 5.99,
+      "valor_total_item": 29.95
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 2,
+      "preco_unitario": 9.99,
+      "valor_total_item": 19.98
+    },
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 4,
+      "preco_unitario": 18.9,
+      "valor_total_item": 75.6
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Papel Higiênico 12 rolos",
+      "quantidade": 4,
+      "preco_unitario": 17.9,
+      "valor_total_item": 71.6
+    }
+  ],
+  "comprador": {
+    "nome": "Eduarda Lima",
+    "cpf": "529.360.303-36",
+    "telefone": "(15) 91782-6688"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Pedro Voss",
+    "numero": 550,
+    "complemento": "Fundos",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 5,
+  "valor_produtos": 197.13,
+  "valor_total": 202.13,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-26",
+  "hora_pedido": "13:07",
+  "previsao_entrega": "13:57",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-26T13:07:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 37
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e65"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 1,
+      "preco_unitario": 5.29,
+      "valor_total_item": 5.29
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 2,
+      "preco_unitario": 5.99,
+      "valor_total_item": 11.98
+    }
+  ],
+  "comprador": {
+    "nome": "Larissa Gomes",
+    "cpf": "950.613.819-33",
+    "telefone": "(15) 96893-3885"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 906,
+    "complemento": "",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 10,
+  "valor_produtos": 17.27,
+  "valor_total": 27.27,
+  "codigo_seguranca": "2172",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-20",
+  "hora_pedido": "08:29",
+  "previsao_entrega": "09:17",
+  "data_entrega": "2026-05-20",
+  "hora_entrega": "09:35",
+  "criado_em": {
+    "$date": "2026-05-20T08:29:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-20T09:35:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 38
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e66"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 4,
+      "preco_unitario": 6.49,
+      "valor_total_item": 25.96
+    }
+  ],
+  "comprador": {
+    "nome": "Rafael Silva",
+    "cpf": "864.287.646-76",
+    "telefone": "(15) 94639-5191"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 934,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 10,
+  "valor_produtos": 25.96,
+  "valor_total": 35.96,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-25",
+  "hora_pedido": "20:41",
+  "previsao_entrega": "21:27",
+  "data_entrega": "2026-05-25",
+  "hora_entrega": "21:22",
+  "criado_em": {
+    "$date": "2026-05-25T20:41:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-25T21:22:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 39
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e67"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 4,
+      "preco_unitario": 22.9,
+      "valor_total_item": 91.6
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 5,
+      "preco_unitario": 3.49,
+      "valor_total_item": 17.45
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Desinfetante 2L",
+      "quantidade": 2,
+      "preco_unitario": 7.9,
+      "valor_total_item": 15.8
+    }
+  ],
+  "comprador": {
+    "nome": "Felipe Martins",
+    "cpf": "294.924.435-57",
+    "telefone": "(15) 98852-3154"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 564,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Mazzei",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 5,
+  "valor_produtos": 124.85,
+  "valor_total": 129.85,
+  "codigo_seguranca": "3027",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Endereço informado estava incorreto.",
+  "data_pedido": "2026-05-10",
+  "hora_pedido": "16:28",
+  "previsao_entrega": "17:06",
+  "data_entrega": "2026-05-10",
+  "hora_entrega": "17:50",
+  "criado_em": {
+    "$date": "2026-05-10T16:28:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-10T17:50:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 40
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e68"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 4,
+      "preco_unitario": 7.49,
+      "valor_total_item": 29.96
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 2,
+      "preco_unitario": 8.49,
+      "valor_total_item": 16.98
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 5,
+      "preco_unitario": 3.49,
+      "valor_total_item": 17.45
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 1,
+      "preco_unitario": 2.49,
+      "valor_total_item": 2.49
+    }
+  ],
+  "comprador": {
+    "nome": "Bruno Henrique",
+    "cpf": "444.335.296-32",
+    "telefone": "(15) 92845-6504"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 730,
+    "complemento": "Fundos",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 10,
+  "valor_produtos": 66.88,
+  "valor_total": 76.88,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-10",
+  "hora_pedido": "20:00",
+  "previsao_entrega": "20:32",
+  "data_entrega": "2026-05-10",
+  "hora_entrega": "20:46",
+  "criado_em": {
+    "$date": "2026-05-10T20:00:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-10T20:46:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 41
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e69"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Desinfetante 2L",
+      "quantidade": 3,
+      "preco_unitario": 7.9,
+      "valor_total_item": 23.7
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 4,
+      "preco_unitario": 14.9,
+      "valor_total_item": 59.6
+    }
+  ],
+  "comprador": {
+    "nome": "Ana Carolina",
+    "cpf": "280.931.383-25",
+    "telefone": "(15) 93427-9689"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 655,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 8,
+  "valor_produtos": 83.3,
+  "valor_total": 91.3,
+  "codigo_seguranca": "2165",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-06",
+  "hora_pedido": "10:48",
+  "previsao_entrega": "11:20",
+  "data_entrega": "2026-05-06",
+  "hora_entrega": "11:25",
+  "criado_em": {
+    "$date": "2026-05-06T10:48:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-06T11:25:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 42
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e6a"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 3,
+      "preco_unitario": 9.99,
+      "valor_total_item": 29.97
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 5,
+      "preco_unitario": 2.99,
+      "valor_total_item": 14.95
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 2,
+      "preco_unitario": 14.9,
+      "valor_total_item": 29.8
+    }
+  ],
+  "comprador": {
+    "nome": "Bianca Martins",
+    "cpf": "232.102.173-91",
+    "telefone": "(15) 91511-7820"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 729,
+    "complemento": "",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 7,
+  "valor_produtos": 169.22,
+  "valor_total": 176.22,
+  "codigo_seguranca": "6082",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-30",
+  "hora_pedido": "17:35",
+  "previsao_entrega": "18:43",
+  "data_entrega": "2026-05-30",
+  "hora_entrega": "18:38",
+  "criado_em": {
+    "$date": "2026-05-30T17:35:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-30T18:38:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 43
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e6b"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 1,
+      "preco_unitario": 9.9,
+      "valor_total_item": 9.9
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 1,
+      "preco_unitario": 4.89,
+      "valor_total_item": 4.89
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 4,
+      "preco_unitario": 14.9,
+      "valor_total_item": 59.6
+    }
+  ],
+  "comprador": {
+    "nome": "Felipe Martins",
+    "cpf": "510.342.335-85",
+    "telefone": "(15) 98625-7259"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 524,
+    "complemento": "Bloco B",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 9,
+  "valor_produtos": 74.39,
+  "valor_total": 83.39,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-11",
+  "hora_pedido": "18:55",
+  "previsao_entrega": "20:02",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-11T18:55:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 44
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e6c"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 4,
+      "preco_unitario": 3.49,
+      "valor_total_item": 13.96
+    }
+  ],
+  "comprador": {
+    "nome": "Amanda Souza",
+    "cpf": "276.927.345-53",
+    "telefone": "(15) 91875-4205"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 335,
+    "complemento": "Casa",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 6,
+  "valor_produtos": 13.96,
+  "valor_total": 19.96,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-22",
+  "hora_pedido": "21:45",
+  "previsao_entrega": "22:34",
+  "data_entrega": "2026-05-22",
+  "hora_entrega": "22:59",
+  "criado_em": {
+    "$date": "2026-05-22T21:45:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-22T22:59:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 45
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e6d"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 4,
+      "preco_unitario": 8.49,
+      "valor_total_item": 33.96
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Sabão em Pó 1kg",
+      "quantidade": 5,
+      "preco_unitario": 12.9,
+      "valor_total_item": 64.5
+    }
+  ],
+  "comprador": {
+    "nome": "Bianca Martins",
+    "cpf": "454.524.600-78",
+    "telefone": "(15) 91550-6424"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 528,
+    "complemento": "Casa",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 12,
+  "valor_produtos": 192.96,
+  "valor_total": 204.96,
+  "codigo_seguranca": "8134",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Problema no veículo do entregador.",
+  "data_pedido": "2026-05-14",
+  "hora_pedido": "10:46",
+  "previsao_entrega": "11:48",
+  "data_entrega": "2026-05-14",
+  "hora_entrega": "12:03",
+  "criado_em": {
+    "$date": "2026-05-14T10:46:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-14T12:03:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 46
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e6e"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 4,
+      "preco_unitario": 8.49,
+      "valor_total_item": 33.96
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 1,
+      "preco_unitario": 6.49,
+      "valor_total_item": 6.49
+    }
+  ],
+  "comprador": {
+    "nome": "Larissa Gomes",
+    "cpf": "651.274.995-19",
+    "telefone": "(15) 96586-3894"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Pedro Voss",
+    "numero": 958,
+    "complemento": "",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar no portão lateral.",
+  "frete": 5,
+  "valor_produtos": 40.45,
+  "valor_total": 45.45,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-10",
+  "hora_pedido": "17:19",
+  "previsao_entrega": "18:05",
+  "data_entrega": "2026-05-10",
+  "hora_entrega": "17:56",
+  "criado_em": {
+    "$date": "2026-05-10T17:19:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-10T17:56:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 47
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e6f"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 5,
+      "preco_unitario": 4.89,
+      "valor_total_item": 24.45
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 1,
+      "preco_unitario": 5.99,
+      "valor_total_item": 5.99
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 5,
+      "preco_unitario": 22.9,
+      "valor_total_item": 114.5
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 4,
+      "preco_unitario": 18.9,
+      "valor_total_item": 75.6
+    }
+  ],
+  "comprador": {
+    "nome": "Sabrina Almeida",
+    "cpf": "730.470.191-58",
+    "telefone": "(15) 92275-3534"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua João Evangelista",
+    "numero": 793,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu prioridade na entrega.",
+  "frete": 12,
+  "valor_produtos": 220.54,
+  "valor_total": 232.54,
+  "codigo_seguranca": "9313",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-26",
+  "hora_pedido": "19:23",
+  "previsao_entrega": "20:12",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-26T19:23:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 48
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e70"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 1,
+      "preco_unitario": 9.9,
+      "valor_total_item": 9.9
+    }
+  ],
+  "comprador": {
+    "nome": "Felipe Martins",
+    "cpf": "182.171.481-74",
+    "telefone": "(15) 98786-4190"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Pedro Voss",
+    "numero": 842,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar no portão lateral.",
+  "frete": 9,
+  "valor_produtos": 33.86,
+  "valor_total": 42.86,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-08",
+  "hora_pedido": "15:55",
+  "previsao_entrega": "17:02",
+  "data_entrega": "2026-05-08",
+  "hora_entrega": "16:53",
+  "criado_em": {
+    "$date": "2026-05-08T15:55:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-08T16:53:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 49
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e71"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 3,
+      "preco_unitario": 7.49,
+      "valor_total_item": 22.47
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 5,
+      "preco_unitario": 5.99,
+      "valor_total_item": 29.95
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 5,
+      "preco_unitario": 22.9,
+      "valor_total_item": 114.5
+    }
+  ],
+  "comprador": {
+    "nome": "Sabrina Almeida",
+    "cpf": "230.363.557-60",
+    "telefone": "(15) 96246-9571"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 979,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 9,
+  "valor_produtos": 166.92,
+  "valor_total": 175.92,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-12",
+  "hora_pedido": "11:13",
+  "previsao_entrega": "11:52",
+  "data_entrega": "2026-05-12",
+  "hora_entrega": "11:45",
+  "criado_em": {
+    "$date": "2026-05-12T11:13:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-12T11:45:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 50
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e72"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.49,
+      "valor_total_item": 12.98
+    },
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 1,
+      "preco_unitario": 5.29,
+      "valor_total_item": 5.29
+    }
+  ],
+  "comprador": {
+    "nome": "Paula Fernanda",
+    "cpf": "214.781.251-90",
+    "telefone": "(15) 93223-7300"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 724,
+    "complemento": "",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 8,
+  "valor_produtos": 18.27,
+  "valor_total": 26.27,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-18",
+  "hora_pedido": "15:24",
+  "previsao_entrega": "15:59",
+  "data_entrega": "2026-05-18",
+  "hora_entrega": "16:03",
+  "criado_em": {
+    "$date": "2026-05-18T15:24:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-18T16:03:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 51
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e73"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 4,
+      "preco_unitario": 8.49,
+      "valor_total_item": 33.96
+    },
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 3,
+      "preco_unitario": 5.99,
+      "valor_total_item": 17.97
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 1,
+      "preco_unitario": 14.9,
+      "valor_total_item": 14.9
+    }
+  ],
+  "comprador": {
+    "nome": "Paula Fernanda",
+    "cpf": "355.895.468-54",
+    "telefone": "(15) 95327-4857"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 279,
+    "complemento": "Casa",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu prioridade na entrega.",
+  "frete": 7,
+  "valor_produtos": 66.83,
+  "valor_total": 73.83,
+  "codigo_seguranca": "4022",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-11",
+  "hora_pedido": "13:18",
+  "previsao_entrega": "14:07",
+  "data_entrega": "2026-05-11",
+  "hora_entrega": "14:12",
+  "criado_em": {
+    "$date": "2026-05-11T13:18:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-11T14:12:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 52
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e74"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 1,
+      "preco_unitario": 14.9,
+      "valor_total_item": 14.9
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 3,
+      "preco_unitario": 7.49,
+      "valor_total_item": 22.47
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 1,
+      "preco_unitario": 26.9,
+      "valor_total_item": 26.9
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    }
+  ],
+  "comprador": {
+    "nome": "Marcos Vinicius",
+    "cpf": "788.937.781-47",
+    "telefone": "(15) 91574-4356"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 977,
+    "complemento": "",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 9,
+  "valor_produtos": 88.23,
+  "valor_total": 97.23,
+  "codigo_seguranca": "1945",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Não foi possível contato com o cliente.",
+  "data_pedido": "2026-06-01",
+  "hora_pedido": "12:14",
+  "previsao_entrega": "13:03",
+  "data_entrega": "2026-06-01",
+  "hora_entrega": "13:18",
+  "criado_em": {
+    "$date": "2026-06-01T12:14:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-06-01T13:18:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 53
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e75"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    }
+  ],
+  "comprador": {
+    "nome": "Otavio Pereira",
+    "cpf": "768.559.384-51",
+    "telefone": "(15) 98531-7390"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 69,
+    "complemento": "",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 6,
+  "valor_produtos": 94.5,
+  "valor_total": 100.5,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-24",
+  "hora_pedido": "14:17",
+  "previsao_entrega": "14:58",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-24T14:17:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 54
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e76"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.99,
+      "valor_total_item": 34.95
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 2,
+      "preco_unitario": 3.49,
+      "valor_total_item": 6.98
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 5,
+      "preco_unitario": 2.49,
+      "valor_total_item": 12.45
+    },
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 3,
+      "preco_unitario": 5.99,
+      "valor_total_item": 17.97
+    }
+  ],
+  "comprador": {
+    "nome": "Willian Oliveira",
+    "cpf": "252.605.115-73",
+    "telefone": "(15) 91255-8503"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 740,
+    "complemento": "",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 8,
+  "valor_produtos": 72.35,
+  "valor_total": 80.35,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-06-01",
+  "hora_pedido": "09:49",
+  "previsao_entrega": "10:22",
+  "data_entrega": "2026-06-01",
+  "hora_entrega": "10:15",
+  "criado_em": {
+    "$date": "2026-06-01T09:49:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-06-01T10:15:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 55
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e77"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.49,
+      "valor_total_item": 12.98
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 3,
+      "preco_unitario": 3.49,
+      "valor_total_item": 10.47
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 5,
+      "preco_unitario": 2.99,
+      "valor_total_item": 14.95
+    }
+  ],
+  "comprador": {
+    "nome": "Patricia Moraes",
+    "cpf": "936.490.458-34",
+    "telefone": "(15) 94400-2582"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 722,
+    "complemento": "Bloco B",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 6,
+  "valor_produtos": 38.4,
+  "valor_total": 44.4,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-28",
+  "hora_pedido": "19:43",
+  "previsao_entrega": "20:19",
+  "data_entrega": "2026-05-28",
+  "hora_entrega": "20:13",
+  "criado_em": {
+    "$date": "2026-05-28T19:43:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-28T20:13:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 56
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e78"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 5,
+      "preco_unitario": 9.99,
+      "valor_total_item": 49.95
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 5,
+      "preco_unitario": 8.49,
+      "valor_total_item": 42.45
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 2,
+      "preco_unitario": 3.49,
+      "valor_total_item": 6.98
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 1,
+      "preco_unitario": 2.99,
+      "valor_total_item": 2.99
+    }
+  ],
+  "comprador": {
+    "nome": "Bruno Henrique",
+    "cpf": "792.715.622-76",
+    "telefone": "(15) 91593-4660"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 687,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 12,
+  "valor_produtos": 102.37,
+  "valor_total": 114.37,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-11",
+  "hora_pedido": "08:08",
+  "previsao_entrega": "09:04",
+  "data_entrega": "2026-05-11",
+  "hora_entrega": "09:17",
+  "criado_em": {
+    "$date": "2026-05-11T08:08:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-11T09:17:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 57
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e79"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 5,
+      "preco_unitario": 3.49,
+      "valor_total_item": 17.45
+    }
+  ],
+  "comprador": {
+    "nome": "Larissa Gomes",
+    "cpf": "839.615.266-94",
+    "telefone": "(15) 91966-2866"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 604,
+    "complemento": "Fundos",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Apertar a campainha.",
+  "frete": 9,
+  "valor_produtos": 17.45,
+  "valor_total": 26.45,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-27",
+  "hora_pedido": "13:58",
+  "previsao_entrega": "14:42",
+  "data_entrega": "2026-05-27",
+  "hora_entrega": "14:40",
+  "criado_em": {
+    "$date": "2026-05-27T13:58:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-27T14:40:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 58
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e7a"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Papel Higiênico 12 rolos",
+      "quantidade": 3,
+      "preco_unitario": 17.9,
+      "valor_total_item": 53.7
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 3,
+      "preco_unitario": 3.49,
+      "valor_total_item": 10.47
+    }
+  ],
+  "comprador": {
+    "nome": "Lucas Gabriel",
+    "cpf": "359.238.412-10",
+    "telefone": "(15) 93140-5535"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 690,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu prioridade na entrega.",
+  "frete": 12,
+  "valor_produtos": 64.17,
+  "valor_total": 76.17,
+  "codigo_seguranca": "7584",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-17",
+  "hora_pedido": "11:38",
+  "previsao_entrega": "12:39",
+  "data_entrega": "2026-05-17",
+  "hora_entrega": "12:57",
+  "criado_em": {
+    "$date": "2026-05-17T11:38:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-17T12:57:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 59
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e7b"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 4,
+      "preco_unitario": 12.5,
+      "valor_total_item": 50
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 2,
+      "preco_unitario": 9.9,
+      "valor_total_item": 19.8
+    },
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 3,
+      "preco_unitario": 5.29,
+      "valor_total_item": 15.87
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 3,
+      "preco_unitario": 3.49,
+      "valor_total_item": 10.47
+    }
+  ],
+  "comprador": {
+    "nome": "Gabriela Santos",
+    "cpf": "208.802.349-78",
+    "telefone": "(15) 99412-1516"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 117,
+    "complemento": "Bloco B",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 5,
+  "valor_produtos": 96.14,
+  "valor_total": 101.14,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-22",
+  "hora_pedido": "18:16",
+  "previsao_entrega": "19:21",
+  "data_entrega": "2026-05-22",
+  "hora_entrega": "19:42",
+  "criado_em": {
+    "$date": "2026-05-22T18:16:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-22T19:42:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 60
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e7c"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 4,
+      "preco_unitario": 3.49,
+      "valor_total_item": 13.96
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Molho de Tomate 340g",
+      "quantidade": 5,
+      "preco_unitario": 3.89,
+      "valor_total_item": 19.45
+    },
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 1,
+      "preco_unitario": 5.99,
+      "valor_total_item": 5.99
+    }
+  ],
+  "comprador": {
+    "nome": "Amanda Souza",
+    "cpf": "299.724.633-28",
+    "telefone": "(15) 95091-7836"
+  },
+  "entregador": {
+    "nome": "Aguardando associação",
+    "matricula": "",
+    "veiculo": {
+      "tipo": "",
+      "marca": "",
+      "placa": ""
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 908,
+    "complemento": "Casa",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar no portão lateral.",
+  "frete": 10,
+  "valor_produtos": 39.4,
+  "valor_total": 49.4,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-06",
+  "hora_pedido": "21:42",
+  "previsao_entrega": "22:24",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-06T21:42:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 61
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e7d"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 4,
+      "preco_unitario": 26.9,
+      "valor_total_item": 107.6
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Desinfetante 2L",
+      "quantidade": 2,
+      "preco_unitario": 7.9,
+      "valor_total_item": 15.8
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 3,
+      "preco_unitario": 9.99,
+      "valor_total_item": 29.97
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 3,
+      "preco_unitario": 9.9,
+      "valor_total_item": 29.7
+    }
+  ],
+  "comprador": {
+    "nome": "Ana Carolina",
+    "cpf": "643.275.573-21",
+    "telefone": "(15) 92031-5475"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 240,
+    "complemento": "Bloco B",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 7,
+  "valor_produtos": 183.07,
+  "valor_total": 190.07,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-12",
+  "hora_pedido": "21:37",
+  "previsao_entrega": "22:15",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-12T21:37:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 62
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e7e"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 3,
+      "preco_unitario": 9.9,
+      "valor_total_item": 29.7
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Papel Higiênico 12 rolos",
+      "quantidade": 2,
+      "preco_unitario": 17.9,
+      "valor_total_item": 35.8
+    }
+  ],
+  "comprador": {
+    "nome": "Caio Ribeiro",
+    "cpf": "641.333.784-31",
+    "telefone": "(15) 93640-2467"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 265,
+    "complemento": "Bloco B",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 9,
+  "valor_produtos": 65.5,
+  "valor_total": 74.5,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-29",
+  "hora_pedido": "08:17",
+  "previsao_entrega": "09:09",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-29T08:17:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 63
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e7f"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 2,
+      "preco_unitario": 22.9,
+      "valor_total_item": 45.8
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Batata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.49,
+      "valor_total_item": 32.45
+    }
+  ],
+  "comprador": {
+    "nome": "Gustavo Lima",
+    "cpf": "430.278.900-71",
+    "telefone": "(15) 99745-9467"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 829,
+    "complemento": "Casa",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Apertar a campainha.",
+  "frete": 10,
+  "valor_produtos": 78.25,
+  "valor_total": 88.25,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-09",
+  "hora_pedido": "09:52",
+  "previsao_entrega": "10:29",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-09T09:52:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 64
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e80"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 5,
+      "preco_unitario": 4.89,
+      "valor_total_item": 24.45
+    }
+  ],
+  "comprador": {
+    "nome": "Henrique Alves",
+    "cpf": "555.230.536-28",
+    "telefone": "(15) 97659-3871"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 414,
+    "complemento": "",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 8,
+  "valor_produtos": 24.45,
+  "valor_total": 32.45,
+  "codigo_seguranca": "1332",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-29",
+  "hora_pedido": "15:15",
+  "previsao_entrega": "16:03",
+  "data_entrega": "2026-05-29",
+  "hora_entrega": "16:04",
+  "criado_em": {
+    "$date": "2026-05-29T15:15:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-29T16:04:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 65
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e81"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 3,
+      "preco_unitario": 8.49,
+      "valor_total_item": 25.47
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 4,
+      "preco_unitario": 2.49,
+      "valor_total_item": 9.96
+    }
+  ],
+  "comprador": {
+    "nome": "Felipe Martins",
+    "cpf": "801.836.411-40",
+    "telefone": "(15) 91671-6773"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 779,
+    "complemento": "Fundos",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 7,
+  "valor_produtos": 35.43,
+  "valor_total": 42.43,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-15",
+  "hora_pedido": "19:12",
+  "previsao_entrega": "20:31",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-15T19:12:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 66
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e82"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 1,
+      "preco_unitario": 12.5,
+      "valor_total_item": 12.5
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 5,
+      "preco_unitario": 7.49,
+      "valor_total_item": 37.45
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 3,
+      "preco_unitario": 8.49,
+      "valor_total_item": 25.47
+    }
+  ],
+  "comprador": {
+    "nome": "Bruno Henrique",
+    "cpf": "997.440.999-20",
+    "telefone": "(15) 96459-8180"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 246,
+    "complemento": "Casa",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 7,
+  "valor_produtos": 75.42,
+  "valor_total": 82.42,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-29",
+  "hora_pedido": "13:06",
+  "previsao_entrega": "13:59",
+  "data_entrega": "2026-05-29",
+  "hora_entrega": "14:13",
+  "criado_em": {
+    "$date": "2026-05-29T13:06:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-29T14:13:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 67
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e83"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 2,
+      "preco_unitario": 5.99,
+      "valor_total_item": 11.98
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Molho de Tomate 340g",
+      "quantidade": 3,
+      "preco_unitario": 3.89,
+      "valor_total_item": 11.67
+    }
+  ],
+  "comprador": {
+    "nome": "Rafael Silva",
+    "cpf": "350.413.796-97",
+    "telefone": "(15) 91355-1191"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 47,
+    "complemento": "",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 5,
+  "valor_produtos": 23.65,
+  "valor_total": 28.65,
+  "codigo_seguranca": "7386",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-09",
+  "hora_pedido": "10:24",
+  "previsao_entrega": "11:07",
+  "data_entrega": "2026-05-09",
+  "hora_entrega": "11:06",
+  "criado_em": {
+    "$date": "2026-05-09T10:24:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-09T11:06:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 68
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e84"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 3,
+      "preco_unitario": 2.49,
+      "valor_total_item": 7.47
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.99,
+      "valor_total_item": 34.95
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 1,
+      "preco_unitario": 2.99,
+      "valor_total_item": 2.99
+    }
+  ],
+  "comprador": {
+    "nome": "Eduarda Lima",
+    "cpf": "203.139.674-35",
+    "telefone": "(15) 97882-4468"
+  },
+  "entregador": {
+    "nome": "Aguardando associação",
+    "matricula": "",
+    "veiculo": {
+      "tipo": "",
+      "marca": "",
+      "placa": ""
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 377,
+    "complemento": "Fundos",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 9,
+  "valor_produtos": 45.41,
+  "valor_total": 54.41,
+  "codigo_seguranca": "2139",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-20",
+  "hora_pedido": "20:29",
+  "previsao_entrega": "21:42",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-20T20:29:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 69
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e85"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 2,
+      "preco_unitario": 5.99,
+      "valor_total_item": 11.98
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 3,
+      "preco_unitario": 8.49,
+      "valor_total_item": 25.47
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 5,
+      "preco_unitario": 9.9,
+      "valor_total_item": 49.5
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.49,
+      "valor_total_item": 12.98
+    }
+  ],
+  "comprador": {
+    "nome": "Thiago Moreira",
+    "cpf": "417.440.305-64",
+    "telefone": "(15) 93791-8686"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 514,
+    "complemento": "Fundos",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Apertar a campainha.",
+  "frete": 6,
+  "valor_produtos": 99.93,
+  "valor_total": 105.93,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-26",
+  "hora_pedido": "11:22",
+  "previsao_entrega": "12:21",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-26T11:22:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 70
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e86"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 1,
+      "preco_unitario": 9.9,
+      "valor_total_item": 9.9
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 5,
+      "preco_unitario": 9.99,
+      "valor_total_item": 49.95
+    }
+  ],
+  "comprador": {
+    "nome": "Lucas Gabriel",
+    "cpf": "110.761.654-11",
+    "telefone": "(15) 94986-9729"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 960,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Rio Branco",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 5,
+  "valor_produtos": 59.85,
+  "valor_total": 64.85,
+  "codigo_seguranca": "Desativado",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Endereço informado estava incorreto.",
+  "data_pedido": "2026-05-03",
+  "hora_pedido": "14:21",
+  "previsao_entrega": "15:33",
+  "data_entrega": "2026-05-03",
+  "hora_entrega": "16:16",
+  "criado_em": {
+    "$date": "2026-05-03T14:21:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-03T16:16:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 71
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e87"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Sabão em Pó 1kg",
+      "quantidade": 1,
+      "preco_unitario": 12.9,
+      "valor_total_item": 12.9
+    }
+  ],
+  "comprador": {
+    "nome": "Henrique Alves",
+    "cpf": "293.637.626-45",
+    "telefone": "(15) 99282-1931"
+  },
+  "entregador": {
+    "nome": "Aguardando associação",
+    "matricula": "",
+    "veiculo": {
+      "tipo": "",
+      "marca": "",
+      "placa": ""
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 362,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 6,
+  "valor_produtos": 12.9,
+  "valor_total": 18.9,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-10",
+  "hora_pedido": "09:25",
+  "previsao_entrega": "10:30",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-10T09:25:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 72
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e88"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 3,
+      "preco_unitario": 2.99,
+      "valor_total_item": 8.97
+    }
+  ],
+  "comprador": {
+    "nome": "Thiago Moreira",
+    "cpf": "130.522.716-34",
+    "telefone": "(15) 94254-1535"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 411,
+    "complemento": "Casa",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 10,
+  "valor_produtos": 8.97,
+  "valor_total": 18.97,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-17",
+  "hora_pedido": "09:02",
+  "previsao_entrega": "09:56",
+  "data_entrega": "2026-05-17",
+  "hora_entrega": "10:01",
+  "criado_em": {
+    "$date": "2026-05-17T09:02:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-17T10:01:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 73
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e89"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 1,
+      "preco_unitario": 8.49,
+      "valor_total_item": 8.49
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 4,
+      "preco_unitario": 26.9,
+      "valor_total_item": 107.6
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.99,
+      "valor_total_item": 13.98
+    }
+  ],
+  "comprador": {
+    "nome": "Renato Alves",
+    "cpf": "246.468.122-12",
+    "telefone": "(15) 99400-4335"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 734,
+    "complemento": "Casa",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 7,
+  "valor_produtos": 130.07,
+  "valor_total": 137.07,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-08",
+  "hora_pedido": "19:04",
+  "previsao_entrega": "20:21",
+  "data_entrega": "2026-05-08",
+  "hora_entrega": "20:20",
+  "criado_em": {
+    "$date": "2026-05-08T19:04:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-08T20:20:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 74
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e8a"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 1,
+      "preco_unitario": 5.99,
+      "valor_total_item": 5.99
+    }
+  ],
+  "comprador": {
+    "nome": "Rafael Silva",
+    "cpf": "387.319.236-80",
+    "telefone": "(15) 93229-3163"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 727,
+    "complemento": "",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 6,
+  "valor_produtos": 5.99,
+  "valor_total": 11.99,
+  "codigo_seguranca": "1755",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-30",
+  "hora_pedido": "20:27",
+  "previsao_entrega": "20:58",
+  "data_entrega": "2026-05-30",
+  "hora_entrega": "21:08",
+  "criado_em": {
+    "$date": "2026-05-30T20:27:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-30T21:08:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 75
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e8b"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 4,
+      "preco_unitario": 9.99,
+      "valor_total_item": 39.96
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 3,
+      "preco_unitario": 2.99,
+      "valor_total_item": 8.97
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 1,
+      "preco_unitario": 8.49,
+      "valor_total_item": 8.49
+    }
+  ],
+  "comprador": {
+    "nome": "Daniel Souza",
+    "cpf": "753.403.173-99",
+    "telefone": "(15) 93286-3152"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 116,
+    "complemento": "",
+    "bairro": "Vila Nastri",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 7,
+  "valor_produtos": 57.42,
+  "valor_total": 64.42,
+  "codigo_seguranca": "5160",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-19",
+  "hora_pedido": "11:57",
+  "previsao_entrega": "12:49",
+  "data_entrega": "2026-05-19",
+  "hora_entrega": "13:05",
+  "criado_em": {
+    "$date": "2026-05-19T11:57:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-19T13:05:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 76
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e8c"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 2,
+      "preco_unitario": 14.9,
+      "valor_total_item": 29.8
+    }
+  ],
+  "comprador": {
+    "nome": "Larissa Gomes",
+    "cpf": "578.652.846-71",
+    "telefone": "(15) 95917-3833"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 760,
+    "complemento": "Casa",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 10,
+  "valor_produtos": 29.8,
+  "valor_total": 39.8,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-19",
+  "hora_pedido": "08:34",
+  "previsao_entrega": "09:24",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-19T08:34:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 77
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e8d"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 2,
+      "preco_unitario": 14.9,
+      "valor_total_item": 29.8
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Desinfetante 2L",
+      "quantidade": 2,
+      "preco_unitario": 7.9,
+      "valor_total_item": 15.8
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 1,
+      "preco_unitario": 3.49,
+      "valor_total_item": 3.49
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 2,
+      "preco_unitario": 8.49,
+      "valor_total_item": 16.98
+    }
+  ],
+  "comprador": {
+    "nome": "Isabela Rocha",
+    "cpf": "337.790.319-76",
+    "telefone": "(15) 93489-2324"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 714,
+    "complemento": "",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 5,
+  "valor_produtos": 66.07,
+  "valor_total": 71.07,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-13",
+  "hora_pedido": "08:05",
+  "previsao_entrega": "09:19",
+  "data_entrega": "2026-05-13",
+  "hora_entrega": "09:31",
+  "criado_em": {
+    "$date": "2026-05-13T08:05:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-13T09:31:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 78
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e8e"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.99,
+      "valor_total_item": 34.95
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Molho de Tomate 340g",
+      "quantidade": 2,
+      "preco_unitario": 3.89,
+      "valor_total_item": 7.78
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 2,
+      "preco_unitario": 22.9,
+      "valor_total_item": 45.8
+    }
+  ],
+  "comprador": {
+    "nome": "Bianca Martins",
+    "cpf": "895.478.408-69",
+    "telefone": "(15) 96529-7747"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 529,
+    "complemento": "Fundos",
+    "bairro": "Jardim Bela Vista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 9,
+  "valor_produtos": 112.49,
+  "valor_total": 121.49,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-06",
+  "hora_pedido": "11:58",
+  "previsao_entrega": "12:46",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-06T11:58:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 79
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e8f"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 3,
+      "preco_unitario": 18.9,
+      "valor_total_item": 56.7
+    },
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    }
+  ],
+  "comprador": {
+    "nome": "Willian Oliveira",
+    "cpf": "794.387.752-64",
+    "telefone": "(15) 96282-2673"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 245,
+    "complemento": "Bloco B",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 12,
+  "valor_produtos": 151.2,
+  "valor_total": 163.2,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-27",
+  "hora_pedido": "10:32",
+  "previsao_entrega": "11:21",
+  "data_entrega": "2026-05-27",
+  "hora_entrega": "11:33",
+  "criado_em": {
+    "$date": "2026-05-27T10:32:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-27T11:33:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 80
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e90"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 5,
+      "preco_unitario": 14.9,
+      "valor_total_item": 74.5
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 4,
+      "preco_unitario": 12.5,
+      "valor_total_item": 50
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    }
+  ],
+  "comprador": {
+    "nome": "Caio Ribeiro",
+    "cpf": "308.280.677-56",
+    "telefone": "(15) 91716-8646"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua João Evangelista",
+    "numero": 758,
+    "complemento": "Casa",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 5,
+  "valor_produtos": 219,
+  "valor_total": 224,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-16",
+  "hora_pedido": "17:59",
+  "previsao_entrega": "19:13",
+  "data_entrega": "2026-05-16",
+  "hora_entrega": "19:15",
+  "criado_em": {
+    "$date": "2026-05-16T17:59:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-16T19:15:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 81
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e91"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 2,
+      "preco_unitario": 5.99,
+      "valor_total_item": 11.98
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 3,
+      "preco_unitario": 3.49,
+      "valor_total_item": 10.47
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 5,
+      "preco_unitario": 22.9,
+      "valor_total_item": 114.5
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Sabão em Pó 1kg",
+      "quantidade": 2,
+      "preco_unitario": 12.9,
+      "valor_total_item": 25.8
+    }
+  ],
+  "comprador": {
+    "nome": "Renato Alves",
+    "cpf": "509.261.816-96",
+    "telefone": "(15) 96969-1485"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 236,
+    "complemento": "Casa",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu prioridade na entrega.",
+  "frete": 12,
+  "valor_produtos": 162.75,
+  "valor_total": 174.75,
+  "codigo_seguranca": "4241",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-07",
+  "hora_pedido": "13:55",
+  "previsao_entrega": "14:55",
+  "data_entrega": "2026-05-07",
+  "hora_entrega": "14:46",
+  "criado_em": {
+    "$date": "2026-05-07T13:55:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-07T14:46:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 82
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e92"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 4,
+      "preco_unitario": 4.89,
+      "valor_total_item": 19.56
+    }
+  ],
+  "comprador": {
+    "nome": "Paula Fernanda",
+    "cpf": "627.821.248-96",
+    "telefone": "(15) 98996-8512"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 460,
+    "complemento": "Fundos",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 9,
+  "valor_produtos": 19.56,
+  "valor_total": 28.56,
+  "codigo_seguranca": "5084",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-22",
+  "hora_pedido": "21:06",
+  "previsao_entrega": "22:13",
+  "data_entrega": "2026-05-22",
+  "hora_entrega": "22:05",
+  "criado_em": {
+    "$date": "2026-05-22T21:06:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-22T22:05:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 83
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e93"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 1,
+      "preco_unitario": 2.99,
+      "valor_total_item": 2.99
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 3,
+      "preco_unitario": 2.49,
+      "valor_total_item": 7.47
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 5,
+      "preco_unitario": 22.9,
+      "valor_total_item": 114.5
+    }
+  ],
+  "comprador": {
+    "nome": "Paula Fernanda",
+    "cpf": "847.121.436-51",
+    "telefone": "(15) 99288-1415"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 501,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 5,
+  "valor_produtos": 124.96,
+  "valor_total": 129.96,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-06-01",
+  "hora_pedido": "16:56",
+  "previsao_entrega": "17:56",
+  "data_entrega": "2026-06-01",
+  "hora_entrega": "18:13",
+  "criado_em": {
+    "$date": "2026-06-01T16:56:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-06-01T18:13:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 84
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e94"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Desinfetante 2L",
+      "quantidade": 2,
+      "preco_unitario": 7.9,
+      "valor_total_item": 15.8
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 2,
+      "preco_unitario": 26.9,
+      "valor_total_item": 53.8
+    }
+  ],
+  "comprador": {
+    "nome": "Sabrina Almeida",
+    "cpf": "666.465.359-89",
+    "telefone": "(15) 94355-6395"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 565,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 6,
+  "valor_produtos": 69.6,
+  "valor_total": 75.6,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-20",
+  "hora_pedido": "20:36",
+  "previsao_entrega": "21:30",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-20T20:36:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 85
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e95"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    }
+  ],
+  "comprador": {
+    "nome": "Vanessa Costa",
+    "cpf": "626.415.821-71",
+    "telefone": "(15) 94952-2628"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 990,
+    "complemento": "Fundos",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 7,
+  "valor_produtos": 94.5,
+  "valor_total": 101.5,
+  "codigo_seguranca": "3863",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-03",
+  "hora_pedido": "16:59",
+  "previsao_entrega": "17:45",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-03T16:59:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 86
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e96"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Molho de Tomate 340g",
+      "quantidade": 5,
+      "preco_unitario": 3.89,
+      "valor_total_item": 19.45
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.49,
+      "valor_total_item": 32.45
+    }
+  ],
+  "comprador": {
+    "nome": "Rafael Silva",
+    "cpf": "226.275.352-84",
+    "telefone": "(15) 97054-9991"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 975,
+    "complemento": "Fundos",
+    "bairro": "Jardim Itália",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 6,
+  "valor_produtos": 51.9,
+  "valor_total": 57.9,
+  "codigo_seguranca": "Desativado",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Cliente recusou o pedido.",
+  "data_pedido": "2026-05-24",
+  "hora_pedido": "08:27",
+  "previsao_entrega": "09:34",
+  "data_entrega": "2026-05-24",
+  "hora_entrega": "10:12",
+  "criado_em": {
+    "$date": "2026-05-24T08:27:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-24T10:12:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 87
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e97"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 1,
+      "preco_unitario": 6.49,
+      "valor_total_item": 6.49
+    },
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 1,
+      "preco_unitario": 5.29,
+      "valor_total_item": 5.29
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 5,
+      "preco_unitario": 8.49,
+      "valor_total_item": 42.45
+    }
+  ],
+  "comprador": {
+    "nome": "Lucas Gabriel",
+    "cpf": "643.664.621-30",
+    "telefone": "(15) 97372-4076"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 332,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 5,
+  "valor_produtos": 54.23,
+  "valor_total": 59.23,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-24",
+  "hora_pedido": "21:34",
+  "previsao_entrega": "22:09",
+  "data_entrega": "2026-05-24",
+  "hora_entrega": "22:25",
+  "criado_em": {
+    "$date": "2026-05-24T21:34:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-24T22:25:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 88
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e98"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 4,
+      "preco_unitario": 3.49,
+      "valor_total_item": 13.96
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 4,
+      "preco_unitario": 2.49,
+      "valor_total_item": 9.96
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 2,
+      "preco_unitario": 9.99,
+      "valor_total_item": 19.98
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.49,
+      "valor_total_item": 12.98
+    }
+  ],
+  "comprador": {
+    "nome": "Willian Oliveira",
+    "cpf": "789.754.840-38",
+    "telefone": "(15) 92031-7247"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 530,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Rio Branco",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar no portão lateral.",
+  "frete": 8,
+  "valor_produtos": 56.88,
+  "valor_total": 64.88,
+  "codigo_seguranca": "7740",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-26",
+  "hora_pedido": "14:12",
+  "previsao_entrega": "14:50",
+  "data_entrega": "2026-05-26",
+  "hora_entrega": "14:52",
+  "criado_em": {
+    "$date": "2026-05-26T14:12:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-26T14:52:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 89
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e99"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.99,
+      "valor_total_item": 13.98
+    }
+  ],
+  "comprador": {
+    "nome": "Juliana Castro",
+    "cpf": "868.617.275-68",
+    "telefone": "(15) 93090-8798"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua João Evangelista",
+    "numero": 746,
+    "complemento": "Bloco B",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 6,
+  "valor_produtos": 37.94,
+  "valor_total": 43.94,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-08",
+  "hora_pedido": "09:24",
+  "previsao_entrega": "10:03",
+  "data_entrega": "2026-05-08",
+  "hora_entrega": "10:23",
+  "criado_em": {
+    "$date": "2026-05-08T09:24:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-08T10:23:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 90
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e9a"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 2,
+      "preco_unitario": 5.29,
+      "valor_total_item": 10.58
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 2,
+      "preco_unitario": 22.9,
+      "valor_total_item": 45.8
+    }
+  ],
+  "comprador": {
+    "nome": "Rafael Silva",
+    "cpf": "603.517.773-26",
+    "telefone": "(15) 92422-6823"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 507,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 12,
+  "valor_produtos": 56.38,
+  "valor_total": 68.38,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-31",
+  "hora_pedido": "19:19",
+  "previsao_entrega": "20:27",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-31T19:19:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 91
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e9b"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 1,
+      "preco_unitario": 2.99,
+      "valor_total_item": 2.99
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 2,
+      "preco_unitario": 3.49,
+      "valor_total_item": 6.98
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 2,
+      "preco_unitario": 9.99,
+      "valor_total_item": 19.98
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Óleo de Soja 900ml",
+      "quantidade": 4,
+      "preco_unitario": 7.99,
+      "valor_total_item": 31.96
+    }
+  ],
+  "comprador": {
+    "nome": "Ana Carolina",
+    "cpf": "664.618.737-12",
+    "telefone": "(15) 99997-4158"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Avenida Peixoto Gomide",
+    "numero": 224,
+    "complemento": "Fundos",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 8,
+  "valor_produtos": 61.91,
+  "valor_total": 69.91,
+  "codigo_seguranca": "4201",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-21",
+  "hora_pedido": "14:09",
+  "previsao_entrega": "14:48",
+  "data_entrega": "2026-05-21",
+  "hora_entrega": "14:56",
+  "criado_em": {
+    "$date": "2026-05-21T14:09:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-21T14:56:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 92
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e9c"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 1,
+      "preco_unitario": 2.49,
+      "valor_total_item": 2.49
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 5,
+      "preco_unitario": 8.49,
+      "valor_total_item": 42.45
+    },
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 4,
+      "preco_unitario": 5.29,
+      "valor_total_item": 21.16
+    }
+  ],
+  "comprador": {
+    "nome": "Felipe Martins",
+    "cpf": "635.538.283-50",
+    "telefone": "(15) 98641-1639"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 746,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Bela Vista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 9,
+  "valor_produtos": 66.1,
+  "valor_total": 75.1,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-17",
+  "hora_pedido": "08:57",
+  "previsao_entrega": "10:14",
+  "data_entrega": "2026-05-17",
+  "hora_entrega": "10:05",
+  "criado_em": {
+    "$date": "2026-05-17T08:57:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-17T10:05:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 93
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e9d"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 3,
+      "preco_unitario": 6.49,
+      "valor_total_item": 19.47
+    }
+  ],
+  "comprador": {
+    "nome": "Larissa Gomes",
+    "cpf": "942.619.620-72",
+    "telefone": "(15) 98000-9718"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua General Carneiro",
+    "numero": 892,
+    "complemento": "",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 10,
+  "valor_produtos": 19.47,
+  "valor_total": 29.47,
+  "codigo_seguranca": "9028",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-30",
+  "hora_pedido": "10:10",
+  "previsao_entrega": "11:22",
+  "data_entrega": "2026-05-30",
+  "hora_entrega": "11:25",
+  "criado_em": {
+    "$date": "2026-05-30T10:10:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-30T11:25:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 94
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e9e"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 2,
+      "preco_unitario": 7.49,
+      "valor_total_item": 14.98
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Refrigerante Cola 2L",
+      "quantidade": 1,
+      "preco_unitario": 9.99,
+      "valor_total_item": 9.99
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 3,
+      "preco_unitario": 5.99,
+      "valor_total_item": 17.97
+    }
+  ],
+  "comprador": {
+    "nome": "João Pedro",
+    "cpf": "333.579.197-36",
+    "telefone": "(15) 96027-1620"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 943,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 5,
+  "valor_produtos": 42.94,
+  "valor_total": 47.94,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-25",
+  "hora_pedido": "19:22",
+  "previsao_entrega": "20:33",
+  "data_entrega": "2026-05-25",
+  "hora_entrega": "20:23",
+  "criado_em": {
+    "$date": "2026-05-25T19:22:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-25T20:23:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 95
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87e9f"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 2,
+      "preco_unitario": 14.9,
+      "valor_total_item": 29.8
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 5,
+      "preco_unitario": 2.99,
+      "valor_total_item": 14.95
+    },
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 2,
+      "preco_unitario": 8.49,
+      "valor_total_item": 16.98
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Maçã 1kg",
+      "quantidade": 2,
+      "preco_unitario": 9.9,
+      "valor_total_item": 19.8
+    }
+  ],
+  "comprador": {
+    "nome": "Isabela Rocha",
+    "cpf": "100.346.144-87",
+    "telefone": "(15) 97567-3639"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 416,
+    "complemento": "",
+    "bairro": "Vila Mazzei",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 8,
+  "valor_produtos": 81.53,
+  "valor_total": 89.53,
+  "codigo_seguranca": "2778",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-12",
+  "hora_pedido": "14:01",
+  "previsao_entrega": "15:00",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-12T14:01:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 96
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea0"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 1,
+      "preco_unitario": 2.49,
+      "valor_total_item": 2.49
+    }
+  ],
+  "comprador": {
+    "nome": "Sabrina Almeida",
+    "cpf": "255.872.452-75",
+    "telefone": "(15) 99154-7906"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 586,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 8,
+  "valor_produtos": 2.49,
+  "valor_total": 10.49,
+  "codigo_seguranca": "4683",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-13",
+  "hora_pedido": "16:33",
+  "previsao_entrega": "17:40",
+  "data_entrega": "2026-05-13",
+  "hora_entrega": "17:39",
+  "criado_em": {
+    "$date": "2026-05-13T16:33:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-13T17:39:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 97
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea1"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 3,
+      "preco_unitario": 6.99,
+      "valor_total_item": 20.97
+    }
+  ],
+  "comprador": {
+    "nome": "Marcos Vinicius",
+    "cpf": "365.918.459-61",
+    "telefone": "(15) 93053-2703"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Santos",
+    "numero": 95,
+    "complemento": "Bloco B",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 12,
+  "valor_produtos": 20.97,
+  "valor_total": 32.97,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-12",
+  "hora_pedido": "12:45",
+  "previsao_entrega": "13:53",
+  "data_entrega": "2026-05-12",
+  "hora_entrega": "14:09",
+  "criado_em": {
+    "$date": "2026-05-12T12:45:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-12T14:09:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 98
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea2"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 5,
+      "preco_unitario": 4.89,
+      "valor_total_item": 24.45
+    },
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 2,
+      "preco_unitario": 14.9,
+      "valor_total_item": 29.8
+    }
+  ],
+  "comprador": {
+    "nome": "Bianca Martins",
+    "cpf": "585.447.370-54",
+    "telefone": "(15) 95974-2499"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 993,
+    "complemento": "Fundos",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 9,
+  "valor_produtos": 148.75,
+  "valor_total": 157.75,
+  "codigo_seguranca": "9890",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-19",
+  "hora_pedido": "14:05",
+  "previsao_entrega": "14:39",
+  "data_entrega": "2026-05-19",
+  "hora_entrega": "14:58",
+  "criado_em": {
+    "$date": "2026-05-19T14:05:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-19T14:58:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 99
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea3"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 1,
+      "preco_unitario": 5.29,
+      "valor_total_item": 5.29
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 3,
+      "preco_unitario": 3.49,
+      "valor_total_item": 10.47
+    }
+  ],
+  "comprador": {
+    "nome": "João Pedro",
+    "cpf": "784.766.624-91",
+    "telefone": "(15) 93851-2279"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua João Evangelista",
+    "numero": 303,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 5,
+  "valor_produtos": 15.76,
+  "valor_total": 20.76,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-03",
+  "hora_pedido": "21:34",
+  "previsao_entrega": "22:24",
+  "data_entrega": "2026-05-03",
+  "hora_entrega": "22:26",
+  "criado_em": {
+    "$date": "2026-05-03T21:34:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-03T22:26:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 100
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea4"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 2,
+      "preco_unitario": 26.9,
+      "valor_total_item": 53.8
+    },
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Laranja 1kg",
+      "quantidade": 3,
+      "preco_unitario": 5.99,
+      "valor_total_item": 17.97
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 2,
+      "preco_unitario": 8.49,
+      "valor_total_item": 16.98
+    },
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 5,
+      "preco_unitario": 18.9,
+      "valor_total_item": 94.5
+    }
+  ],
+  "comprador": {
+    "nome": "Gabriela Santos",
+    "cpf": "439.245.932-32",
+    "telefone": "(15) 95331-1431"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 796,
+    "complemento": "",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 6,
+  "valor_produtos": 183.25,
+  "valor_total": 189.25,
+  "codigo_seguranca": "5945",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-19",
+  "hora_pedido": "16:49",
+  "previsao_entrega": "18:07",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-19T16:49:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 101
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea5"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Água Mineral 1,5L",
+      "quantidade": 3,
+      "preco_unitario": 3.49,
+      "valor_total_item": 10.47
+    },
+    {
+      "tipos": [
+        "bebida",
+        "mercearia"
+      ],
+      "nome": "Café Tradicional 500g",
+      "quantidade": 3,
+      "preco_unitario": 18.9,
+      "valor_total_item": 56.7
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 5,
+      "preco_unitario": 7.49,
+      "valor_total_item": 37.45
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Papel Higiênico 12 rolos",
+      "quantidade": 2,
+      "preco_unitario": 17.9,
+      "valor_total_item": 35.8
+    }
+  ],
+  "comprador": {
+    "nome": "Otavio Pereira",
+    "cpf": "907.132.736-24",
+    "telefone": "(15) 94886-1289"
+  },
+  "entregador": {
+    "nome": "Aguardando associação",
+    "matricula": "",
+    "veiculo": {
+      "tipo": "",
+      "marca": "",
+      "placa": ""
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "numero": 214,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Santana",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Apertar a campainha.",
+  "frete": 12,
+  "valor_produtos": 140.42,
+  "valor_total": 152.42,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-11",
+  "hora_pedido": "17:41",
+  "previsao_entrega": "18:57",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-11T17:41:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 102
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea6"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 3,
+      "preco_unitario": 3.49,
+      "valor_total_item": 10.47
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 1,
+      "preco_unitario": 2.99,
+      "valor_total_item": 2.99
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 1,
+      "preco_unitario": 26.9,
+      "valor_total_item": 26.9
+    }
+  ],
+  "comprador": {
+    "nome": "Renato Alves",
+    "cpf": "819.241.719-21",
+    "telefone": "(15) 97603-6205"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 350,
+    "complemento": "Bloco B",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 7,
+  "valor_produtos": 40.36,
+  "valor_total": 47.36,
+  "codigo_seguranca": "2128",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-05",
+  "hora_pedido": "11:35",
+  "previsao_entrega": "12:24",
+  "data_entrega": "2026-05-05",
+  "hora_entrega": "12:22",
+  "criado_em": {
+    "$date": "2026-05-05T11:35:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-05T12:22:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 103
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea7"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 3,
+      "preco_unitario": 6.99,
+      "valor_total_item": 20.97
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Desinfetante 2L",
+      "quantidade": 5,
+      "preco_unitario": 7.9,
+      "valor_total_item": 39.5
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Papel Higiênico 12 rolos",
+      "quantidade": 1,
+      "preco_unitario": 17.9,
+      "valor_total_item": 17.9
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 4,
+      "preco_unitario": 3.49,
+      "valor_total_item": 13.96
+    }
+  ],
+  "comprador": {
+    "nome": "Gustavo Lima",
+    "cpf": "695.470.174-68",
+    "telefone": "(15) 97295-2949"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 378,
+    "complemento": "Fundos",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 5,
+  "valor_produtos": 92.33,
+  "valor_total": 97.33,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-25",
+  "hora_pedido": "13:56",
+  "previsao_entrega": "14:40",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-25T13:56:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 104
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea8"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Molho de Tomate 340g",
+      "quantidade": 1,
+      "preco_unitario": 3.89,
+      "valor_total_item": 3.89
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Creme Dental 90g",
+      "quantidade": 1,
+      "preco_unitario": 5.99,
+      "valor_total_item": 5.99
+    }
+  ],
+  "comprador": {
+    "nome": "Willian Oliveira",
+    "cpf": "120.427.841-38",
+    "telefone": "(15) 96467-9362"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Monsenhor Soares",
+    "numero": 481,
+    "complemento": "Bloco B",
+    "bairro": "Centro",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Apertar a campainha.",
+  "frete": 10,
+  "valor_produtos": 9.88,
+  "valor_total": 19.88,
+  "codigo_seguranca": "8723",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-09",
+  "hora_pedido": "18:32",
+  "previsao_entrega": "19:25",
+  "data_entrega": "2026-05-09",
+  "hora_entrega": "19:15",
+  "criado_em": {
+    "$date": "2026-05-09T18:32:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-09T19:15:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 105
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ea9"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Batata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.49,
+      "valor_total_item": 32.45
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Queijo Mussarela 500g",
+      "quantidade": 3,
+      "preco_unitario": 22.9,
+      "valor_total_item": 68.7
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 1,
+      "preco_unitario": 14.9,
+      "valor_total_item": 14.9
+    }
+  ],
+  "comprador": {
+    "nome": "Felipe Martins",
+    "cpf": "437.866.746-58",
+    "telefone": "(15) 96883-1640"
+  },
+  "entregador": {
+    "nome": "Fernanda Alves",
+    "matricula": "0003",
+    "veiculo": {
+      "tipo": "Carro",
+      "marca": "Fiat Uno",
+      "placa": "GHI-9012"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Pedro Voss",
+    "numero": 45,
+    "complemento": "Fundos",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 9,
+  "valor_produtos": 116.05,
+  "valor_total": 125.05,
+  "codigo_seguranca": "4633",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-04",
+  "hora_pedido": "11:44",
+  "previsao_entrega": "12:45",
+  "data_entrega": "2026-05-04",
+  "hora_entrega": "13:07",
+  "criado_em": {
+    "$date": "2026-05-04T11:44:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-04T13:07:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 106
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eaa"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 3,
+      "preco_unitario": 8.49,
+      "valor_total_item": 25.47
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Óleo de Soja 900ml",
+      "quantidade": 2,
+      "preco_unitario": 7.99,
+      "valor_total_item": 15.98
+    }
+  ],
+  "comprador": {
+    "nome": "Rafael Silva",
+    "cpf": "661.840.353-38",
+    "telefone": "(15) 96750-3660"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 536,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar no portão lateral.",
+  "frete": 6,
+  "valor_produtos": 41.45,
+  "valor_total": 47.45,
+  "codigo_seguranca": "7051",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-20",
+  "hora_pedido": "20:19",
+  "previsao_entrega": "20:53",
+  "data_entrega": "2026-05-20",
+  "hora_entrega": "21:13",
+  "criado_em": {
+    "$date": "2026-05-20T20:19:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-20T21:13:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 107
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eab"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 4,
+      "preco_unitario": 26.9,
+      "valor_total_item": 107.6
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 5,
+      "preco_unitario": 12.5,
+      "valor_total_item": 62.5
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Presunto 500g",
+      "quantidade": 3,
+      "preco_unitario": 18.9,
+      "valor_total_item": 56.7
+    }
+  ],
+  "comprador": {
+    "nome": "Marcos Vinicius",
+    "cpf": "291.266.791-26",
+    "telefone": "(15) 94452-6428"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 232,
+    "complemento": "Fundos",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 5,
+  "valor_produtos": 226.8,
+  "valor_total": 231.8,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-19",
+  "hora_pedido": "20:35",
+  "previsao_entrega": "21:17",
+  "data_entrega": "2026-05-19",
+  "hora_entrega": "21:19",
+  "criado_em": {
+    "$date": "2026-05-19T20:35:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-19T21:19:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 108
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eac"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 4,
+      "preco_unitario": 6.99,
+      "valor_total_item": 27.96
+    }
+  ],
+  "comprador": {
+    "nome": "Isabela Rocha",
+    "cpf": "820.214.277-26",
+    "telefone": "(15) 95126-4863"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 816,
+    "complemento": "Casa",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Entregar na portaria.",
+  "frete": 6,
+  "valor_produtos": 27.96,
+  "valor_total": 33.96,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-14",
+  "hora_pedido": "10:18",
+  "previsao_entrega": "10:51",
+  "data_entrega": "2026-05-14",
+  "hora_entrega": "10:41",
+  "criado_em": {
+    "$date": "2026-05-14T10:18:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-14T10:41:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 109
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87ead"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "massa"
+      ],
+      "nome": "Macarrão Espaguete 500g",
+      "quantidade": 4,
+      "preco_unitario": 5.99,
+      "valor_total_item": 23.96
+    },
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Batata 1kg",
+      "quantidade": 2,
+      "preco_unitario": 6.49,
+      "valor_total_item": 12.98
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 1,
+      "preco_unitario": 12.5,
+      "valor_total_item": 12.5
+    }
+  ],
+  "comprador": {
+    "nome": "Juliana Castro",
+    "cpf": "695.524.270-90",
+    "telefone": "(15) 95785-9160"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua João Evangelista",
+    "numero": 966,
+    "complemento": "Casa",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 7,
+  "valor_produtos": 49.44,
+  "valor_total": 56.44,
+  "codigo_seguranca": "2340",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-18",
+  "hora_pedido": "15:19",
+  "previsao_entrega": "16:10",
+  "data_entrega": "2026-05-18",
+  "hora_entrega": "16:25",
+  "criado_em": {
+    "$date": "2026-05-18T15:19:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-18T16:25:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 110
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eae"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 4,
+      "preco_unitario": 4.89,
+      "valor_total_item": 19.56
+    }
+  ],
+  "comprador": {
+    "nome": "Larissa Gomes",
+    "cpf": "830.289.642-26",
+    "telefone": "(15) 91534-1494"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 338,
+    "complemento": "Fundos",
+    "bairro": "Jardim das Rosas",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 8,
+  "valor_produtos": 19.56,
+  "valor_total": 27.56,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-27",
+  "hora_pedido": "17:41",
+  "previsao_entrega": "18:33",
+  "data_entrega": "2026-05-27",
+  "hora_entrega": "18:24",
+  "criado_em": {
+    "$date": "2026-05-27T17:41:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-27T18:24:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 111
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eaf"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "hortifruti"
+      ],
+      "nome": "Tomate 1kg",
+      "quantidade": 2,
+      "preco_unitario": 7.49,
+      "valor_total_item": 14.98
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Farinha de Trigo 1kg",
+      "quantidade": 3,
+      "preco_unitario": 6.49,
+      "valor_total_item": 19.47
+    },
+    {
+      "tipos": [
+        "frios",
+        "alimento"
+      ],
+      "nome": "Mortadela 500g",
+      "quantidade": 4,
+      "preco_unitario": 12.5,
+      "valor_total_item": 50
+    }
+  ],
+  "comprador": {
+    "nome": "Amanda Souza",
+    "cpf": "148.196.242-50",
+    "telefone": "(15) 99961-6460"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 904,
+    "complemento": "Casa",
+    "bairro": "Vila Barth",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 6,
+  "valor_produtos": 84.45,
+  "valor_total": 90.45,
+  "codigo_seguranca": "2507",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-27",
+  "hora_pedido": "17:19",
+  "previsao_entrega": "18:23",
+  "data_entrega": "2026-05-27",
+  "hora_entrega": "18:31",
+  "criado_em": {
+    "$date": "2026-05-27T17:19:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-27T18:31:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 112
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eb0"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Açúcar Refinado 1kg",
+      "quantidade": 1,
+      "preco_unitario": 4.89,
+      "valor_total_item": 4.89
+    }
+  ],
+  "comprador": {
+    "nome": "Camila Ribeiro",
+    "cpf": "274.892.165-95",
+    "telefone": "(15) 99567-2352"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": 871,
+    "complemento": "Apartamento 12",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu prioridade na entrega.",
+  "frete": 7,
+  "valor_produtos": 4.89,
+  "valor_total": 11.89,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-03",
+  "hora_pedido": "20:37",
+  "previsao_entrega": "21:46",
+  "data_entrega": "2026-05-03",
+  "hora_entrega": "21:40",
+  "criado_em": {
+    "$date": "2026-05-03T20:37:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-03T21:40:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 113
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eb1"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Feijão Carioca 1kg",
+      "quantidade": 4,
+      "preco_unitario": 8.49,
+      "valor_total_item": 33.96
+    }
+  ],
+  "comprador": {
+    "nome": "Natalia Ferreira",
+    "cpf": "255.100.251-45",
+    "telefone": "(15) 91924-7485"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 957,
+    "complemento": "Fundos",
+    "bairro": "Vila Mazzei",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Não buzinar.",
+  "frete": 5,
+  "valor_produtos": 33.96,
+  "valor_total": 38.96,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-05",
+  "hora_pedido": "19:24",
+  "previsao_entrega": "20:12",
+  "data_entrega": "2026-05-05",
+  "hora_entrega": "20:04",
+  "criado_em": {
+    "$date": "2026-05-05T19:24:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-05T20:04:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 114
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eb2"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Esponja Multiuso",
+      "quantidade": 3,
+      "preco_unitario": 2.49,
+      "valor_total_item": 7.47
+    },
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Óleo de Soja 900ml",
+      "quantidade": 2,
+      "preco_unitario": 7.99,
+      "valor_total_item": 15.98
+    }
+  ],
+  "comprador": {
+    "nome": "Gustavo Lima",
+    "cpf": "760.472.537-95",
+    "telefone": "(15) 92007-7172"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 22,
+    "complemento": "Apartamento 12",
+    "bairro": "Vila Rio Branco",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "",
+  "frete": 10,
+  "valor_produtos": 23.45,
+  "valor_total": 33.45,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-06-01",
+  "hora_pedido": "10:57",
+  "previsao_entrega": "12:05",
+  "data_entrega": "2026-06-01",
+  "hora_entrega": "11:58",
+  "criado_em": {
+    "$date": "2026-06-01T10:57:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-06-01T11:58:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 115
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eb3"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Molho de Tomate 340g",
+      "quantidade": 4,
+      "preco_unitario": 3.89,
+      "valor_total_item": 15.56
+    }
+  ],
+  "comprador": {
+    "nome": "Larissa Gomes",
+    "cpf": "405.413.852-55",
+    "telefone": "(15) 95358-5371"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Virgílio de Rezende",
+    "numero": 870,
+    "complemento": "Fundos",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Chamar no WhatsApp ao chegar.",
+  "frete": 9,
+  "valor_produtos": 15.56,
+  "valor_total": 24.56,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-17",
+  "hora_pedido": "18:01",
+  "previsao_entrega": "18:53",
+  "data_entrega": "2026-05-17",
+  "hora_entrega": "19:12",
+  "criado_em": {
+    "$date": "2026-05-17T18:01:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-17T19:12:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 116
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eb4"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida"
+      ],
+      "nome": "Suco de Uva 1L",
+      "quantidade": 2,
+      "preco_unitario": 8.49,
+      "valor_total_item": 16.98
+    }
+  ],
+  "comprador": {
+    "nome": "Marcos Vinicius",
+    "cpf": "410.296.982-32",
+    "telefone": "(15) 99731-8186"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Padre Albuquerque",
+    "numero": 497,
+    "complemento": "",
+    "bairro": "Vila Mazzei",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Apertar a campainha.",
+  "frete": 9,
+  "valor_produtos": 16.98,
+  "valor_total": 25.98,
+  "codigo_seguranca": "Desativado",
+  "status": "entregue",
+  "entregue": true,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-31",
+  "hora_pedido": "17:14",
+  "previsao_entrega": "18:05",
+  "data_entrega": "2026-05-31",
+  "hora_entrega": "18:06",
+  "criado_em": {
+    "$date": "2026-05-31T17:14:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-31T18:06:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 117
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eb5"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "fruta",
+        "hortifruti"
+      ],
+      "nome": "Banana Prata 1kg",
+      "quantidade": 5,
+      "preco_unitario": 6.99,
+      "valor_total_item": 34.95
+    }
+  ],
+  "comprador": {
+    "nome": "Marcos Vinicius",
+    "cpf": "162.824.888-19",
+    "telefone": "(15) 95130-7588"
+  },
+  "entregador": {
+    "nome": "Roberto Lima",
+    "matricula": "0004",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Yamaha Factor",
+      "placa": "JKL-3456"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Campos Sales",
+    "numero": 415,
+    "complemento": "Bloco B",
+    "bairro": "Jardim Fogaça",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Cliente pediu para ligar antes.",
+  "frete": 10,
+  "valor_produtos": 34.95,
+  "valor_total": 44.95,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-16",
+  "hora_pedido": "12:38",
+  "previsao_entrega": "13:29",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-16T12:38:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 118
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eb6"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "bebida",
+        "laticinio"
+      ],
+      "nome": "Leite Integral 1L",
+      "quantidade": 5,
+      "preco_unitario": 5.29,
+      "valor_total_item": 26.45
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Shampoo 350ml",
+      "quantidade": 3,
+      "preco_unitario": 14.9,
+      "valor_total_item": 44.7
+    },
+    {
+      "tipos": [
+        "limpeza"
+      ],
+      "nome": "Detergente 500ml",
+      "quantidade": 1,
+      "preco_unitario": 2.99,
+      "valor_total_item": 2.99
+    }
+  ],
+  "comprador": {
+    "nome": "Ana Carolina",
+    "cpf": "266.708.585-64",
+    "telefone": "(15) 98545-9416"
+  },
+  "entregador": {
+    "nome": "Carlos Mendes",
+    "matricula": "0002",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda CG",
+      "placa": "DEF-5678"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 931,
+    "complemento": "Fundos",
+    "bairro": "Jardim Marabá",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Deixar com o porteiro.",
+  "frete": 6,
+  "valor_produtos": 74.14,
+  "valor_total": 80.14,
+  "codigo_seguranca": "1510",
+  "status": "problema",
+  "entregue": false,
+  "problema_entrega": true,
+  "descricao_problema": "Entrega cancelada pelo cliente.",
+  "data_pedido": "2026-05-15",
+  "hora_pedido": "13:27",
+  "previsao_entrega": "14:14",
+  "data_entrega": "2026-05-15",
+  "hora_entrega": "14:45",
+  "criado_em": {
+    "$date": "2026-05-15T13:27:00.000Z"
+  },
+  "finalizado_em": {
+    "$date": "2026-05-15T14:45:00.000Z"
+  },
+  "origem": "script_teste",
+  "numero_teste": 119
+},
+{
+  "_id": {
+    "$oid": "6a1e84c93b9d6bda77b87eb7"
+  },
+  "itens": [
+    {
+      "tipos": [
+        "alimento",
+        "mercearia"
+      ],
+      "nome": "Arroz Extra 5kg",
+      "quantidade": 4,
+      "preco_unitario": 26.9,
+      "valor_total_item": 107.6
+    },
+    {
+      "tipos": [
+        "higiene"
+      ],
+      "nome": "Sabonete 90g",
+      "quantidade": 2,
+      "preco_unitario": 3.49,
+      "valor_total_item": 6.98
+    }
+  ],
+  "comprador": {
+    "nome": "Amanda Souza",
+    "cpf": "341.621.726-33",
+    "telefone": "(15) 91808-9522"
+  },
+  "entregador": {
+    "nome": "Juliana Souza",
+    "matricula": "0001",
+    "veiculo": {
+      "tipo": "Moto",
+      "marca": "Honda Biz",
+      "placa": "ABC-1234"
+    }
+  },
+  "endereco": {
+    "logradouro": "Rua Benedito Marques",
+    "numero": 419,
+    "complemento": "Bloco B",
+    "bairro": "Vila Rio Branco",
+    "cidade": "Itapetininga"
+  },
+  "observacao": "Casa com cachorro no quintal.",
+  "frete": 9,
+  "valor_produtos": 114.58,
+  "valor_total": 123.58,
+  "codigo_seguranca": "Desativado",
+  "status": "em_curso",
+  "entregue": false,
+  "problema_entrega": false,
+  "descricao_problema": "",
+  "data_pedido": "2026-05-21",
+  "hora_pedido": "08:37",
+  "previsao_entrega": "09:32",
+  "data_entrega": null,
+  "hora_entrega": null,
+  "criado_em": {
+    "$date": "2026-05-21T08:37:00.000Z"
+  },
+  "finalizado_em": null,
+  "origem": "script_teste",
+  "numero_teste": 120
+}]
